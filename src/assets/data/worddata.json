@@ -1,0 +1,165 @@
+{
+    "words": [
+      {
+        "id": 1,
+        "word": "apa",
+        "translation": "monkey",
+        "picture": "https://i.postimg.cc/8PXtYnJC/apa3.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 2,
+        "word": "apelsin",
+        "translation": "orange",
+        "picture": "https://i.postimg.cc/DZmzxZt0/apelsin3.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 3,
+        "word": "ananas",
+        "translation": "pineapple",
+        "picture": "https://i.postimg.cc/fbV4F9TG/ananas1.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 4,
+        "word": "träd",
+        "translation": "tree",
+        "picture": "https://i.postimg.cc/xCgKzcLd/trad3.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 5,
+        "word": "bord",
+        "translation": "table",
+        "picture": "https://i.postimg.cc/fT0cqgMD/bord1.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 6,
+        "word": "banan",
+        "translation": "banana",
+        "picture": "https://i.postimg.cc/fRhF3Hzf/banan1.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 7,
+        "word": "glas",
+        "translation": "glass",
+        "picture": "https://i.postimg.cc/Gp3bD3LK/glas1.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 8,
+        "word": "flygplan",
+        "translation": "airplane",
+        "picture": "https://i.postimg.cc/52LVTY0n/flygplan2.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 9,
+        "word": "tåg",
+        "translation": "train",
+        "picture": "https://i.postimg.cc/X7n14rQs/tag2.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 10,
+        "word": "sol",
+        "translation": "sun",
+        "picture": "https://i.postimg.cc/brhb02sW/sol2.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 11,
+        "word": "hus",
+        "translation": "house",
+        "picture": "https://i.postimg.cc/m2q9Vqz7/hus2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 12,
+        "word": "katt",
+        "translation": "cat",
+        "picture": "https://i.postimg.cc/x1ckzP6q/katt1.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 13,
+        "word": "tand",
+        "translation": "tooth",
+        "picture": "https://i.postimg.cc/fL2yytYY/tand1.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 14,
+        "word": "glass",
+        "translation": "ice cream",
+        "picture": "https://i.postimg.cc/mZdRxWS1/glass3.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 15,
+        "word": "hjärta",
+        "translation": "heart",
+        "picture": "https://i.postimg.cc/ydgG226c/hjarta3.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 16,
+        "word": "tärning",
+        "translation": "dice",
+        "picture": "https://i.postimg.cc/wBRP6NRX/tarning1.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 17,
+        "word": "kanin",
+        "translation": "rabbit",
+        "picture": "https://i.postimg.cc/CKM1XFZp/kanin2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 18,
+        "word": "hjul",
+        "translation": "wheel",
+        "picture": "https://i.postimg.cc/yxDnP4hF/hjul1.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 19,
+        "word": "badkar",
+        "translation": "bathtub",
+        "picture": "https://i.postimg.cc/7LLHXmcx/badkar1.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 20,
+        "word": "tröja",
+        "translation": "sweater",
+        "picture": "https://i.postimg.cc/vTnHfTKf/troja1.jpg",
+        "answer": "en",
+        "level": "easy"
+      }
+    ]
+  }
+  
