@@ -1,14 +1,12 @@
-/*
-
-import { createSlice } from "@reduxjs/toolkit";
-import worddata from "../assets/data/worddata.json";
+import { createSlice } from '@reduxjs/toolkit';
+import worddata from '../assets/data/worddata.json';
 
 const initialState = {
   setOfQuestions: [],
   currentQuestionIndex: 0,
   gameOver: false,
   gameStart: false,
-  score: 0,
+  score: 0
 };
 
 // console.log("worddata:", worddata);
@@ -18,6 +16,7 @@ const getRandomWords = (source, count) => {
   const worddataCopy = [...source.words];
   const filteredWords = [];
 
+  // eslint-disable-next-line no-plusplus
   for (let i = 0; i < count && i < worddataCopy.length; i++) {
     const randomIndex = Math.floor(Math.random() * worddataCopy.length);
     const selectedWord = worddataCopy.splice(randomIndex, 1)[0]; // Remove the selected word
@@ -28,7 +27,7 @@ const getRandomWords = (source, count) => {
 };
 
 export const game = createSlice({
-  name: "game",
+  name: 'game',
   initialState,
   reducers: {
     submitAnswer: (state, action) => {
@@ -51,16 +50,14 @@ export const game = createSlice({
       return {
         ...state,
         gameStart: true,
-        setOfQuestions: getRandomWords(worddata, 5),
+        setOfQuestions: getRandomWords(worddata, 5)
       };
     },
-    endTheGame: (state) => {
+    endTheGame: () => {
       // state.gameOver = true;
-      console.log("Nu har endTheGame gått iväg");
+      console.log('Nu har endTheGame gått iväg');
       // Här måste vi spara och visa resultaten
       return initialState;
-    },
-  },
+    }
+  }
 });
-
-*/
