@@ -2,8 +2,11 @@
   --light-background: rgb(202, 216, 228);
   --dark-background: #000048; 
 
-  --side-margins-mobile: 30px;
-  --side-margins-desktop: 65px;
+  --gameboard-height: 600px;
+  --gameboard-height-mobile: 500px;
+
+  --boxes-height: 300px;
+  --boxes-height-mobile: 185px;
 }
 
 body {
@@ -50,7 +53,7 @@ code {
 .gameboard {
   width: 100%;
   max-width: 800px;
-  height: 600px;
+  height: var(--gameboard-height);
   background-color: var(--light-background);
   border-radius: 25px;
 }
@@ -105,7 +108,7 @@ code {
 
 .box {
   width: 350px;
-  height: 300px;
+  height: var(--boxes-height);
   /*display: flex;
   flex-direction: column;
   justify-content: center;
@@ -162,7 +165,7 @@ code {
 .menu {
   width: 100%;
   max-width: 800px;
-  height: 600px;
+  height: var(--gameboard-height);
   background-color: var(--light-background);
   border-radius: 25px;
   display: flex;
@@ -234,7 +237,7 @@ code {
 .summary {
   width: 100%;
   max-width: 800px;
-  height: 600px;
+  height: var(--gameboard-height);
   background-color: var(--light-background);
   border-radius: 25px;
   padding-left: 20px;
@@ -271,16 +274,23 @@ code {
     height: 180px;
   }
 
+  .box {
+    height: var(--boxes-height-mobile);
+  }
+
   .menu {
     border-radius: 0;
+    height: var(--gameboard-height-mobile);
   }
 
   .gameboard {
     border-radius: 0;
+    height: var(--gameboard-height-mobile);
   }
 
   .summary {
     border-radius: 0;
+    height: var(--gameboard-height-mobile);
   }
 
 }
@@ -312,14 +322,17 @@ code {
 
   .menu {
     border-radius: 0;
+    height: var(--gameboard-height-mobile);
   }
 
   .gameboard {
     border-radius: 0;
+    height: var(--gameboard-height-mobile);
   }
 
   .summary {
     border-radius: 0;
+    height: var(--gameboard-height-mobile);
   }
 
   .card {
@@ -337,7 +350,7 @@ code {
   
   .box {
     width: 300px;
-    height: 290px;
+    height: var(--boxes-height-mobile);
   }
 
   .boxes {
