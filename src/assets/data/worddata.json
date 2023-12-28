@@ -159,6 +159,102 @@
         "picture": "https://i.postimg.cc/vTnHfTKf/troja1.jpg",
         "answer": "en",
         "level": "easy"
+      },
+      {
+        "id": 21,
+        "word": "brev",
+        "translation": "letter",
+        "picture": "/images/image-from-rawpixel-id-6240610-original-compressed.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 22,
+        "word": "hund",
+        "translation": "dog",
+        "picture": "/images/image-from-rawpixel-id-12087075-original-compressed.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 23,
+        "word": "bok",
+        "translation": "book",
+        "picture": "/images/image-from-rawpixel-id-6479591-original_compressed.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 24,
+        "word": "läppstift",
+        "translation": "lipstick",
+        "picture": "/images/image-from-rawpixel-id-6526123-original2-compressed.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 25,
+        "word": "parfym",
+        "translation": "perfume",
+        "picture": "/images/image-from-rawpixel-id-7685968-original-compressed.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 26,
+        "word": "berg",
+        "translation": "mountain",
+        "picture": "/images/image-from-rawpixel-id-6258252-original-compressed.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 27,
+        "word": "fönster",
+        "translation": "window",
+        "picture": "/images/image-from-rawpixel-id-6193860-original-compressed.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 28,
+        "word": "blomma",
+        "translation": "flower",
+        "picture": "/images/image-from-rawpixel-id-12134325-original-compressed.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 29,
+        "word": "moln",
+        "translation": "cloud",
+        "picture": "/images/image-from-rawpixel-id-12072423-original-compressed.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 30,
+        "word": "häst",
+        "translation": "horse",
+        "picture": "/images/image-from-rawpixel-id-12902548-original-compressed.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 31,
+        "word": "äpple",
+        "translation": "apple",
+        "picture": "/images/image-from-rawpixel-id-12902820-original-compressed.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 31,
+        "word": "fågel",
+        "translation": "bird",
+        "picture": "/images/bird-vector.jpg",
+        "answer": "en",
+        "level": "easy"
       }
     ]
   }
