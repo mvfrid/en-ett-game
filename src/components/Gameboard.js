@@ -6,6 +6,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { Card } from './Card.js';
 import { BoxEn } from './BoxEn.js';
 import { BoxEtt } from './BoxEtt.js';
+import { CustomDragLayer } from './CustomDragLayer.js';
 import { CardContainer } from './CardContainer.js';
 import { Messageboard } from './Messageboard.js';
 import { Summary } from './Summary.js';
@@ -49,6 +50,7 @@ export const Gameboard = () => {
 
   return (
     <DndProvider backend={backend}>
+      <CustomDragLayer />
       {gameOver ? (
         <Summary score={score} />
       ) : (
@@ -84,14 +86,3 @@ export const Gameboard = () => {
     </DndProvider>
   );
 };
-
-/*
-export const Gameboard = () => {
-  return (
-    <div className="gameboard">
-      <h1>Hej</h1>
-      <p>Find me in src/app.js!</p>
-    </div>
-  )
-}
-*/

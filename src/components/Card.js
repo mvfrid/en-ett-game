@@ -1,13 +1,19 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { useDrag } from 'react-dnd';
 
 export const Card = ({ pickedBox, currentQuestionData }) => {
-  const [, ref] = useDrag({
+  const ref = useRef(null);
+  const [, drag, preview] = useDrag({
     type: 'card',
-    item: { pickedBox }
+    item: { pickedBox },
+    collect: (monitor) => ({
+      isDragging: monitor.isDragging()
+    })
   });
-  // console.log("pickedBox", { pickedBox });
-  // console.log("currentQuestionData", currentQuestionData);
+
+  // Connect drag source and preview
+  drag(ref);
+  preview(ref);
 
   return (
     <div className="card" ref={ref}>
