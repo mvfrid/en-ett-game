@@ -103,6 +103,10 @@ code {
   pointer-events: none;
 }
 
+.card.dragging {
+  opacity: 0;
+}
+
 .card h2 {
   font-size: 32px;
   text-transform: capitalize;
