@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { HTML5Backend } from 'react-dnd-html5-backend';
+import { TouchBackend } from 'react-dnd-touch-backend'
 import { DndProvider } from 'react-dnd';
 import { useSelector, useDispatch } from 'react-redux';
 import { Card } from './Card.js';
@@ -24,6 +25,13 @@ export const Gameboard = () => {
     (state) => state.game.currentQuestionIndex
   );
 
+  const isTouchDevice = () => {
+    return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+  };
+
+  // Determine the appropriate backend based on the device
+  const backend = isTouchDevice() ? TouchBackend : HTML5Backend;
+
   const handleDrop = (targetContainer) => {
     setCardPosition({ container: targetContainer });
     setBoxesDisabled(true); // Disable the boxes
@@ -40,7 +48,7 @@ export const Gameboard = () => {
   };
 
   return (
-    <DndProvider backend={HTML5Backend}>
+    <DndProvider backend={backend}>
       {gameOver ? (
         <Summary score={score} />
       ) : (
