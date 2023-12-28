@@ -81,12 +81,43 @@ code {
   z-index: 10;
 }
 
+
+.card-preview {
+  max-width: 250px;
+  max-height: 200px;
+  background: white;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 20px;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.222);
+  cursor: pointer;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+
 .card h2 {
   font-size: 32px;
   text-transform: capitalize;
 }
 
 .card img {
+  max-width: 130px;
+  max-height: 180px;
+}
+
+.card-preview h2 {
+  font-size: 32px;
+  text-transform: capitalize;
+}
+
+.card-preview img {
   max-width: 130px;
   max-height: 180px;
 }

@@ -5,7 +5,7 @@ export const Card = ({ pickedBox, currentQuestionData }) => {
   const ref = useRef(null);
   const [, drag, preview] = useDrag({
     type: 'card',
-    item: { pickedBox },
+    item: { pickedBox, currentQuestionData },
     collect: (monitor) => ({
       isDragging: monitor.isDragging()
     })
