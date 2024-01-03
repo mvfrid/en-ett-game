@@ -249,11 +249,203 @@
         "level": "easy"
       },
       {
-        "id": 31,
+        "id": 32,
         "word": "fågel",
         "translation": "bird",
-        "picture": "/images/bird-vector.jpg",
+        "picture": "/images/image-from-rawpixel-id-7063608-png-fixed.png",
         "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 33,
+        "word": "tårta",
+        "translation": "cake",
+        "picture": "/images/chatty_cake2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 34,
+        "word": "",
+        "translation": "",
+        "picture": "/images/bird-vector.jpg",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 35,
+        "word": "ljus",
+        "translation": "light",
+        "picture": "/images/chatty_candlelight2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 36,
+        "word": "ek",
+        "translation": "oak",
+        "picture": "/images/chatty_ek2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 37,
+        "word": "nyckel",
+        "translation": "key",
+        "picture": "/images/chatty_key2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 38,
+        "word": "äng",
+        "translation": "meadow",
+        "picture": "/images/chatty_meadow2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 39,
+        "word": "hav",
+        "translation": "ocean",
+        "picture": "/images/chatty_ocean2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 40,
+        "word": "ost",
+        "translation": "cheese",
+        "picture": "/images/chatty_ost2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 41,
+        "word": "planet",
+        "translation": "planet",
+        "picture": "/images/chatty_planet2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 42,
+        "word": "pyjamas",
+        "translation": "pyjamas",
+        "picture": "/images/chatty_pyjamas2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 43,
+        "word": "regnbåge",
+        "translation": "rainbow",
+        "picture": "/images/chatty_rainbow2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 44,
+        "word": "schampoflaska",
+        "translation": "shampoo bottle",
+        "picture": "/images/chatty_schampoo2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 45,
+        "word": "tvål",
+        "translation": "soap",
+        "picture": "/images/chatty_soap2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 46,
+        "word": "vante",
+        "translation": "mitten",
+        "picture": "/images/chatty_vante2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 47,
+        "word": "vattenpöl",
+        "translation": "water puddle",
+        "picture": "/images/chatty_vattenpol2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 48,
+        "word": "måne",
+        "translation": "moon",
+        "picture": "/images/image-from-rawpixel-id-3966504-png-fixed.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 49,
+        "word": "ägg",
+        "translation": "egg",
+        "picture": "/images/image-from-rawpixel-id-8831341-png-fixed.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 50,
+        "word": "blixt",
+        "translation": "lightning",
+        "picture": "/images/image-from-rawpixel-id-6573760-png-fixed.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 51,
+        "word": "lås",
+        "translation": "lock",
+        "picture": "/images/image-from-rawpixel-id-8834615-png-fixed.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 52,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_ek2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 53,
+        "word": "glödlampa",
+        "translation": "lightning bulb",
+        "picture": "/images/image-from-rawpixel-id-9083215-png-fixed.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 54,
+        "word": "kikare",
+        "translation": "binoculars",
+        "picture": "/images/image-from-rawpixel-id-9974171-png_fixed.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 55,
+        "word": "åskoväder",
+        "translation": "thunder storm",
+        "picture": "/images/image-from-rawpixel-id-9352681-png_fixed.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 56,
+        "word": "skärp",
+        "translation": "belt",
+        "picture": "/images/image-from-rawpixel-id-12362782-original-fixed.png",
+        "answer": "ett",
         "level": "easy"
       }
     ]
