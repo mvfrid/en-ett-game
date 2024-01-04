@@ -1,5 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React from 'react';
+import './Cards.css';
 import { useDrop } from 'react-dnd';
 
 export const CardContainer = ({ children, onDrop }) => {

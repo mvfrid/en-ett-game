@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { game } from './reducers/game';
 import { Header } from './components/Header.js';
-import { Gameboard } from './components/Gameboard.js';
+import { Gameboard } from './components/Game/Gameboard.js';
 import { Menu } from './components/Menu.js';
 
 export const App = () => {
@@ -34,20 +34,30 @@ export const App = () => {
     dispatch(game.actions.startTheGame());
   };
 
+  const handlePracticeButtonClick = () => {
+    setShowGameboard(true);
+    console.log('handlePracticeButtonClick har nu körts');
+    // Dispatch the "startTheGame" action when the "Play" button is clicked
+    dispatch(game.actions.startTheGame());
+  };
+
   return (
     <div className="main">
       <Header />
       {showGameboard ? (
         <Gameboard />
       ) : (
-        <Menu onPlayButtonClick={handlePlayButtonClick} />
+        <Menu
+          onPlayButtonClick={handlePlayButtonClick}
+          onPracticeButtonClick={handlePracticeButtonClick} />
       )}
       {showGameboard && (
         <button
-          className="menubackbutton"
+          className="iconbox backbtn"
           type="button"
           onClick={handleMenuButtonClick}>
-          HEM
+          <img src="/logos/logoback2c.png" alt="go back button" className="backbtnimg" />
+          <p>Hem</p>
         </button>
       )}
     </div>

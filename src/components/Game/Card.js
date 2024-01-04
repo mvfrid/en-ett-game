@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import './Cards.css';
 import { useDrag } from 'react-dnd';
 
 export const Card = ({ pickedBox, currentQuestionData }) => {
@@ -11,7 +12,10 @@ export const Card = ({ pickedBox, currentQuestionData }) => {
     })
   });
 
-  const cardClassName = `card ${isDragging ? 'dragging' : ''}`;
+  // Determine if the word is short for the smallest media query.
+  const isShortWord = window.innerWidth < 500 && currentQuestionData.word.length < 6;
+
+  const cardClassName = `card ${isDragging ? 'dragging' : ''} ${isShortWord ? 'smallWord' : ''}`;
 
   // Connect drag source and preview
   drag(ref);
@@ -19,7 +23,10 @@ export const Card = ({ pickedBox, currentQuestionData }) => {
 
   return (
     <div className={cardClassName} ref={ref}>
-      <h2>{currentQuestionData.word}</h2>
+      <div className="card-text-box">
+        <h2>{currentQuestionData.word}</h2>
+        <p>({currentQuestionData.translation})</p>
+      </div>
       <img src={currentQuestionData.picture} alt={currentQuestionData.word} />
     </div>
   );

@@ -1,0 +1,121 @@
+
+.card {
+    width: auto; /* Width adjusts to content */
+    max-width: 230px; /* Maximum width limit */
+    max-height: 200px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    display: flex;
+    vertical-align: middle;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.222);
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+  }
+  
+  .card-preview {
+    max-width: 250px;
+    max-height: 200px;
+    background: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.222);
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    pointer-events: none;
+  }
+  
+  .card.dragging {
+    opacity: 0;
+  }
+  
+  .card h2 {
+    font-size: 32px;
+    text-transform: capitalize;
+  }
+  
+  .card img {
+    max-width: 130px;
+    max-height: 180px;
+  }
+  
+  .card-preview h2 {
+    font-size: 32px;
+    text-transform: capitalize;
+  }
+  
+  .card-preview img {
+    max-width: 130px;
+    max-height: 180px;
+  }
+  
+  .cardcontainer {
+    width: 100%;
+    height: 180px;
+  }
+  
+  .card-text-box {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card-text-box p {
+    margin: 0;
+    font-size: 16px;
+    color: rgb(82, 82, 82);
+  }
+
+
+  
+@media (max-width: 850px) {
+
+    .cardcontainer {
+      width: 100%;
+      height: 180px;
+    }
+}
+
+
+@media (max-width: 500px) {
+
+    .cardcontainer {
+      width: 100%;
+      height: 150px;
+    }
+  
+    .card {
+      max-width: 200px;
+      max-height: 180px;
+    }
+  
+    .card h2 {
+      font-size: 28px;  }
+    
+    .card img {
+      max-width: 90px;
+      max-height: 130px;
+    }
+
+    .card.smallWord {
+        max-width: 150px; /* smaller max-width for short words */
+      }
+}

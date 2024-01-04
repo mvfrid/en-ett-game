@@ -10,8 +10,8 @@ import { BoxEtt } from './BoxEtt.js';
 import { CustomDragLayer } from './CustomDragLayer.js';
 import { CardContainer } from './CardContainer.js';
 import { Messageboard } from './Messageboard.js';
-import { Summary } from './Summary.js';
-import { game } from '../reducers/game';
+import { Summary } from '../Summary.js';
+import { game } from '../../reducers/game.js';
 
 export const Gameboard = () => {
   const initialCardPosition = { container: 'start' };

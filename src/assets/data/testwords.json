@@ -9,14 +9,6 @@
         "level": "easy"
       },
       {
-        "id": 3,
-        "word": "ananas",
-        "translation": "pineapple",
-        "picture": "https://i.postimg.cc/fbV4F9TG/ananas1.jpg",
-        "answer": "en",
-        "level": "easy"
-      },
-      {
         "id": 4,
         "word": "träd",
         "translation": "tree",
@@ -44,7 +36,7 @@
         "id": 8,
         "word": "flygplan",
         "translation": "airplane",
-        "picture": "https://i.postimg.cc/52LVTY0n/flygplan2.jpg",
+        "picture": "/images/chatty_plane2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -52,7 +44,7 @@
         "id": 9,
         "word": "tåg",
         "translation": "train",
-        "picture": "https://i.postimg.cc/X7n14rQs/tag2.jpg",
+        "picture": "/images/chatty_train_new2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -126,6 +118,46 @@
         "translation": "raspberry",
         "picture": "/images/chatty_hallon2.png",
         "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 66,
+        "word": "sjölejon",
+        "translation": "sea lion",
+        "picture": "/images/chatty_sealion2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 68,
+        "word": "sjukhus",
+        "translation": "hospital",
+        "picture": "/images/chatty_sjukhus2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 69,
+        "word": "cykel",
+        "translation": "bicycle",
+        "picture": "/images/chatty_cykel2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 71,
+        "word": "luftballong",
+        "translation": "hot air balloon",
+        "picture": "/images/chatty_luftballong2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 71,
+        "word": "löpband",
+        "translation": "treadmill",
+        "picture": "/images/chatty_treadmill2.png",
+        "answer": "en",
         "level": "easy"
       }
     ]

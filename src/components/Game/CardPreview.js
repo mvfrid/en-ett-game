@@ -1,4 +1,5 @@
 import React from 'react';
+import './Cards.css';
 
 export const CardPreview = ({ data }) => {
   if (!data || !data.currentQuestionData) {
