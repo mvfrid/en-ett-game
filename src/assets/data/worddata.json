@@ -266,10 +266,10 @@
       },
       {
         "id": 34,
-        "word": "",
-        "translation": "",
-        "picture": "/images/bird-vector.jpg",
-        "answer": "",
+        "word": "hallon",
+        "translation": "raspberry",
+        "picture": "/images/chatty_raspberry2.png",
+        "answer": "ett",
         "level": "easy"
       },
       {
@@ -410,10 +410,10 @@
       },
       {
         "id": 52,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_ek2.png",
-        "answer": "",
+        "word": "mynt",
+        "translation": "coin",
+        "picture": "/images/chatty_coin2.png",
+        "answer": "ett",
         "level": "easy"
       },
       {
@@ -445,6 +445,46 @@
         "word": "skärp",
         "translation": "belt",
         "picture": "/images/image-from-rawpixel-id-12362782-original-fixed.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 57,
+        "word": "blåbär",
+        "translation": "blueberry",
+        "picture": "/images/chatty_blueberry_new2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 58,
+        "word": "jordgubbe",
+        "translation": "strawberry",
+        "picture": "/images/chatty_strawberry2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 59,
+        "word": "hjortron",
+        "translation": "cloudberry",
+        "picture": "/images/chatty_hjortron2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 60,
+        "word": "krusbär",
+        "translation": "gooseberry",
+        "picture": "/images/chatty_krusbar2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 61,
+        "word": "smultron",
+        "translation": "wild strawberry",
+        "picture": "/images/chatty_smultron_new2.png",
         "answer": "ett",
         "level": "easy"
       }
