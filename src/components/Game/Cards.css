@@ -7,7 +7,6 @@
     border: 1px solid black;
     border-radius: 7px;
     display: flex;
-    vertical-align: middle;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -22,6 +21,7 @@
     z-index: 100;
   }
   
+  /* old: 
   .card-preview {
     max-width: 250px;
     max-height: 200px;
@@ -40,6 +40,30 @@
     top: 50%;
     transform: translate(-50%, -50%);
     z-index: 1000;
+    pointer-events: none;
+  }
+  */
+
+  .card-preview {
+    width: auto;
+    max-width: 230px;
+    max-height: 200px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.222);
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100000;
     pointer-events: none;
   }
   
