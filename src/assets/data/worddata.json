@@ -487,6 +487,46 @@
         "picture": "/images/chatty_smultron_new2.png",
         "answer": "ett",
         "level": "easy"
+      },
+      {
+        "id": 62,
+        "word": "björn",
+        "translation": "bear",
+        "picture": "/images/chatty_bear2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 63,
+        "word": "lejon",
+        "translation": "lion",
+        "picture": "/images/chatty_lion2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 64,
+        "word": "tiger",
+        "translation": "tiger",
+        "picture": "/images/chatty_tiger2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 65,
+        "word": "bi",
+        "translation": "bee",
+        "picture": "/images/chatty_bi2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 66,
+        "word": "sjölejon",
+        "translation": "sea lion",
+        "picture": "/images/chatty_sealion2.png",
+        "answer": "ett",
+        "level": "easy"
       }
     ]
   }

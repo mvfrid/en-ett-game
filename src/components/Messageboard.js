@@ -19,7 +19,7 @@ export const Messageboard = ({ selectedBox, currentQuestionData }) => {
   const messages = [
     'Dra ordet till den artikel som den tillhör. Lycka till!',
     `${capitalizedAnswerEnEtt} ${currentQuestionData.word}! Helt korrekt!`,
-    `${capitalizedSelectedEnEtt} ${currentQuestionData.word} är fel. Tyvärr, försök igen!`
+    `${capitalizedSelectedEnEtt} ${currentQuestionData.word} är fel. Tyvärr, bättre lycka nästa gång!`
   ];
 
   let messageToShow;
