@@ -130,6 +130,11 @@
       max-width: 200px;
       max-height: 180px;
     }
+
+    .card-preview {
+        max-width: 200px;
+        max-height: 180px;
+      }
   
     .card h2 {
       font-size: 28px;  }
@@ -140,6 +145,10 @@
     }
 
     .card.smallWord {
+        max-width: 150px; /* smaller max-width for short words */
+      }
+
+      .card-preview.smallWord {
         max-width: 150px; /* smaller max-width for short words */
       }
 }
