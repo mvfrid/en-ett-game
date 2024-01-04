@@ -71,6 +71,10 @@
     opacity: 0;
   }
   
+  .card-preview.dragging {
+    opacity: 0;
+  }
+  
   .card h2 {
     font-size: 32px;
     text-transform: capitalize;
@@ -143,6 +147,14 @@
       max-width: 90px;
       max-height: 130px;
     }
+
+    .card-preview h2 {
+        font-size: 28px;  }
+      
+      .card-preview img {
+        max-width: 90px;
+        max-height: 130px;
+      }
 
     .card.smallWord {
         max-width: 150px; /* smaller max-width for short words */

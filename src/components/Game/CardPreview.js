@@ -8,7 +8,10 @@ export const CardPreview = ({ data }) => {
 
   return (
     <div className="card-preview">
-      <h2>{data.currentQuestionData.word}</h2>
+      <div className="card-text-box">
+        <h2>{data.currentQuestionData.word}</h2>
+        <p>({data.currentQuestionData.translation})</p>
+      </div>
       <img src={data.currentQuestionData.picture} alt={data.currentQuestionData.word} />
     </div>
   );
