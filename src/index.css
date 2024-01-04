@@ -219,19 +219,23 @@ code {
 .en {
   background-color: rgb(138, 138, 230);
   color: rgb(51, 51, 88);
+  z-index: 1;
 }
 
 .en.hovered {
   background-color: rgb(93, 93, 155);
+  z-index: 1;
 }
 
 .ett {
   background-color: rgb(109, 167, 172);
   color: rgb(27, 84, 99);
+  z-index: 1;
 }
 
 .ett.hovered {
   background-color:  rgb(46, 127, 150);
+  z-index: 1;
 }
 
 
