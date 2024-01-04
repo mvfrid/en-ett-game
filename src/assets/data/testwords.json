@@ -1,0 +1,132 @@
+{
+    "words": [
+      {
+        "id": 2,
+        "word": "apelsin",
+        "translation": "orange",
+        "picture": "https://i.postimg.cc/DZmzxZt0/apelsin3.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 3,
+        "word": "ananas",
+        "translation": "pineapple",
+        "picture": "https://i.postimg.cc/fbV4F9TG/ananas1.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 4,
+        "word": "träd",
+        "translation": "tree",
+        "picture": "https://i.postimg.cc/xCgKzcLd/trad3.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 6,
+        "word": "banan",
+        "translation": "banana",
+        "picture": "https://i.postimg.cc/fRhF3Hzf/banan1.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 7,
+        "word": "glas",
+        "translation": "glass",
+        "picture": "https://i.postimg.cc/Gp3bD3LK/glas1.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 8,
+        "word": "flygplan",
+        "translation": "airplane",
+        "picture": "https://i.postimg.cc/52LVTY0n/flygplan2.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 9,
+        "word": "tåg",
+        "translation": "train",
+        "picture": "https://i.postimg.cc/X7n14rQs/tag2.jpg",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 10,
+        "word": "sol",
+        "translation": "sun",
+        "picture": "https://i.postimg.cc/brhb02sW/sol2.jpg",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 11,
+        "word": "hus",
+        "translation": "house",
+        "picture": "https://i.postimg.cc/m2q9Vqz7/hus2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 58,
+        "word": "jordgubbe",
+        "translation": "strawberry",
+        "picture": "/images/chatty_strawberry2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 57,
+        "word": "blåbär",
+        "translation": "blueberry",
+        "picture": "/images/chatty_blueberry_new2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 55,
+        "word": "åskoväder",
+        "translation": "thunder storm",
+        "picture": "/images/image-from-rawpixel-id-9352681-png_fixed.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 52,
+        "word": "mynt",
+        "translation": "coin",
+        "picture": "/images/chatty_coin2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 46,
+        "word": "vante",
+        "translation": "mitten",
+        "picture": "/images/chatty_vante2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 43,
+        "word": "regnbåge",
+        "translation": "rainbow",
+        "picture": "/images/chatty_rainbow2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 34,
+        "word": "hallon",
+        "translation": "raspberry",
+        "picture": "/images/chatty_hallon2.png",
+        "answer": "ett",
+        "level": "easy"
+      }
+    ]
+}
