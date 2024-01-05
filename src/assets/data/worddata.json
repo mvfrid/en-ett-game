@@ -620,7 +620,7 @@
         "id": 78,
         "word": "öra",
         "translation": "ear",
-        "picture": "/images/chatty_ear2.png",
+        "picture": "/images/chatty_ear_new2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -676,7 +676,7 @@
         "id": 85,
         "word": "groda",
         "translation": "frog",
-        "picture": "/images/chatty_groda2.png",
+        "picture": "/images/chatty_frog2.png",
         "answer": "en",
         "level": "easy"
       },

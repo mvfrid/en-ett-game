@@ -17,7 +17,7 @@ export const Messageboard = ({ selectedBox, currentQuestionData }) => {
   const capitalizedSelectedEnEtt = capitalizeFirstLetter(selectedBox);
 
   const messages = [
-    'Dra ordet till den artikel som den tillhör. Lycka till!',
+    'Dra ordet till den artikel som det tillhör. Lycka till!',
     `${capitalizedAnswerEnEtt} ${currentQuestionData.word}! Helt korrekt!`,
     `${capitalizedSelectedEnEtt} ${currentQuestionData.word} är fel. Tyvärr, bättre lycka nästa gång!`
   ];
