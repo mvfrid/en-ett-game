@@ -6,6 +6,9 @@ import { CardPreview } from './CardPreview.js';
 export const CustomDragLayer = () => {
   const { display, itemType, item, style } = usePreview();
 
+  // Adjusted style with higher z-index
+  const adjustedStyle = { ...style, zIndex: 10000000 };
+
   if (!display) return null;
 
   // Define how the preview should look like
@@ -20,7 +23,7 @@ export const CustomDragLayer = () => {
   }
 
   return (
-    <div style={style}>
+    <div style={adjustedStyle}>
       {renderItem()}
     </div>
   );

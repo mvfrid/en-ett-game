@@ -29,7 +29,7 @@ export const Menu = ({
             <p>Profil</p>
           </button>
           <button className="iconbox" type="button" onClick={onInfoButtonClick}>
-            <img src="/logos/icon9b.png" alt="button" className="icon" />
+            <img src="/logos/icon9c.png" alt="button" className="icon" />
             <p>Info</p>
           </button>
           <button className="iconbox" type="button" onClick={onStatisticsButtonClick}>

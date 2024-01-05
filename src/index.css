@@ -25,6 +25,8 @@
   --dark-background: #000048; 
   --mid-blue:  #3535b1; 
 
+  --gameboard-border-radius: 35px;
+
   --gameboard-height: 600px;
   --gameboard-height-mobile: 500px;
 
@@ -108,7 +110,7 @@ code {
   max-width: 850px;
   height: var(--gameboard-height);
   background-color: var(--light-background);
-  border-radius: 25px;
+  border-radius: var(--gameboard-border-radius);
 }
 
   /*------------ MENY -------------*/
