@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
-// import worddata from '../assets/data/worddata.json';
-import worddata from '../assets/data/testwords.json';
+import worddata from '../assets/data/worddata.json';
+// import worddata from '../assets/data/testwords.json';
 
 const initialState = {
   setOfQuestions: [],

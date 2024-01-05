@@ -17,22 +17,6 @@
         "level": "easy"
       },
       {
-        "id": 6,
-        "word": "banan",
-        "translation": "banana",
-        "picture": "https://i.postimg.cc/fRhF3Hzf/banan1.jpg",
-        "answer": "en",
-        "level": "easy"
-      },
-      {
-        "id": 7,
-        "word": "glas",
-        "translation": "glass",
-        "picture": "https://i.postimg.cc/Gp3bD3LK/glas1.jpg",
-        "answer": "ett",
-        "level": "easy"
-      },
-      {
         "id": 8,
         "word": "flygplan",
         "translation": "airplane",
@@ -54,14 +38,6 @@
         "translation": "sun",
         "picture": "https://i.postimg.cc/brhb02sW/sol2.jpg",
         "answer": "en",
-        "level": "easy"
-      },
-      {
-        "id": 11,
-        "word": "hus",
-        "translation": "house",
-        "picture": "https://i.postimg.cc/m2q9Vqz7/hus2.png",
-        "answer": "ett",
         "level": "easy"
       },
       {
@@ -172,6 +148,38 @@
         "id": 45,
         "word": "tvål",
         "translation": "soap",
+        "picture": "/images/chatty_soap2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 455,
+        "word": "Artonxoxoxoxoxoxox",
+        "translation": "soapblablabla",
+        "picture": "/images/chatty_soap2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 355,
+        "word": "Sjutton år i staden",
+        "translation": "soapblab blaaa bla",
+        "picture": "/images/chatty_soap2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 255,
+        "word": "Boxningshandske",
+        "translation": "soapblab blaaa bla",
+        "picture": "/images/chatty_soap2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 155,
+        "word": "Buljongtärning",
+        "translation": "soapblab blaaa bla",
         "picture": "/images/chatty_soap2.png",
         "answer": "en",
         "level": "easy"

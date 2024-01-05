@@ -1,6 +1,7 @@
-import React, { useRef } from 'react';
+import React, { useRef, useEffect } from 'react';
 import './Cards.css';
-import { useDrag } from 'react-dnd';
+import { useDrag, DragPreviewImage } from 'react-dnd';
+import { getEmptyImage } from 'react-dnd-html5-backend';
 
 export const Card = ({ pickedBox, currentQuestionData }) => {
   const ref = useRef(null);
@@ -12,22 +13,40 @@ export const Card = ({ pickedBox, currentQuestionData }) => {
     })
   });
 
-  // Determine if the word is short for the smallest media query.
-  const isShortWord = window.innerWidth < 500 && currentQuestionData.word.length < 6;
+  // Determine if the word is short, medium, or long.
+  const isShortWord = currentQuestionData.word.length < 5;
+  const isLongWord = currentQuestionData.word.length > 10;
 
-  const cardClassName = `card ${isDragging ? 'dragging' : ''} ${isShortWord ? 'smallWord' : ''}`;
+  let wordLengthClass = '';
+  if (isShortWord) {
+    wordLengthClass = 'smallWord';
+  } else if (isLongWord) {
+    wordLengthClass = 'longWord';
+  } else {
+    wordLengthClass = '';
+  }
+
+  const cardClassName = `card ${isDragging ? 'dragging' : ''} ${wordLengthClass}`;
 
   // Connect drag source and preview
   drag(ref);
-  preview(ref);
+
+  // Connect the drag source and specify the drag preview
+  // Gör att default preview försvinner för web
+  useEffect(() => {
+    preview(getEmptyImage(), { captureDraggingState: true });
+  }, [preview]);
 
   return (
-    <div className={cardClassName} ref={ref}>
-      <div className="card-text-box">
-        <h2>{currentQuestionData.word}</h2>
-        <p>({currentQuestionData.translation})</p>
+    <>
+      <DragPreviewImage connect={preview} src={getEmptyImage()} />
+      <div className={cardClassName} ref={ref}>
+        <div className="card-text-box">
+          <h2>{currentQuestionData.word}</h2>
+          <p>({currentQuestionData.translation})</p>
+        </div>
+        <img src={currentQuestionData.picture} alt={currentQuestionData.word} />
       </div>
-      <img src={currentQuestionData.picture} alt={currentQuestionData.word} />
-    </div>
+    </>
   );
 };

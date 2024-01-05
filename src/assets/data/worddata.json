@@ -4,7 +4,7 @@
         "id": 1,
         "word": "apa",
         "translation": "monkey",
-        "picture": "https://i.postimg.cc/8PXtYnJC/apa3.jpg",
+        "picture": "/images/chatty_apa2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -20,7 +20,7 @@
         "id": 3,
         "word": "ananas",
         "translation": "pineapple",
-        "picture": "https://i.postimg.cc/fbV4F9TG/ananas1.jpg",
+        "picture": "/images/chatty_ananas2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -28,7 +28,7 @@
         "id": 4,
         "word": "träd",
         "translation": "tree",
-        "picture": "https://i.postimg.cc/xCgKzcLd/trad3.jpg",
+        "picture": "/images/chatty_tree_colorful2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -44,7 +44,7 @@
         "id": 6,
         "word": "banan",
         "translation": "banana",
-        "picture": "https://i.postimg.cc/fRhF3Hzf/banan1.jpg",
+        "picture": "/images/chatty_banana2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -76,7 +76,7 @@
         "id": 10,
         "word": "sol",
         "translation": "sun",
-        "picture": "https://i.postimg.cc/brhb02sW/sol2.jpg",
+        "picture": "/images/chatty_sol2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -84,7 +84,7 @@
         "id": 11,
         "word": "hus",
         "translation": "house",
-        "picture": "https://i.postimg.cc/m2q9Vqz7/hus2.png",
+        "picture": "/images/chatty_colorful_house2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -92,7 +92,7 @@
         "id": 12,
         "word": "katt",
         "translation": "cat",
-        "picture": "https://i.postimg.cc/x1ckzP6q/katt1.jpg",
+        "picture": "/images/chatty_cat2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -100,7 +100,7 @@
         "id": 13,
         "word": "tand",
         "translation": "tooth",
-        "picture": "https://i.postimg.cc/fL2yytYY/tand1.jpg",
+        "picture": "/images/chatty_tand2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -108,7 +108,7 @@
         "id": 14,
         "word": "glass",
         "translation": "ice cream",
-        "picture": "https://i.postimg.cc/mZdRxWS1/glass3.jpg",
+        "picture": "/images/chatty_glass2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -124,7 +124,7 @@
         "id": 16,
         "word": "tärning",
         "translation": "dice",
-        "picture": "https://i.postimg.cc/wBRP6NRX/tarning1.jpg",
+        "picture": "/images/chatty_dice2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -132,7 +132,7 @@
         "id": 17,
         "word": "kanin",
         "translation": "rabbit",
-        "picture": "https://i.postimg.cc/CKM1XFZp/kanin2.png",
+        "picture": "/images/chatty_bunny2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -180,7 +180,7 @@
         "id": 23,
         "word": "bok",
         "translation": "book",
-        "picture": "/images/image-from-rawpixel-id-6479591-original_compressed.jpg",
+        "picture": "/images/chatty_books2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -236,7 +236,7 @@
         "id": 30,
         "word": "häst",
         "translation": "horse",
-        "picture": "/images/image-from-rawpixel-id-12902548-original-compressed.jpg",
+        "picture": "/images/chatty_horse2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -404,7 +404,7 @@
         "id": 51,
         "word": "lås",
         "translation": "lock",
-        "picture": "/images/image-from-rawpixel-id-8834615-png-fixed.png",
+        "picture": "/images/chatty_lock2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -420,7 +420,7 @@
         "id": 53,
         "word": "glödlampa",
         "translation": "lightning bulb",
-        "picture": "/images/image-from-rawpixel-id-9083215-png-fixed.png",
+        "picture": "/images/chatty_bulb2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -578,154 +578,266 @@
       },
       {
         "id": 73,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "alpacka",
+        "translation": "alpaca",
+        "picture": "/images/chatty_alpacka2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 74,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "anka",
+        "translation": "duck",
+        "picture": "/images/chatty_anka2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 75,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "fladdermus",
+        "translation": "bat",
+        "picture": "/images/chatty_bat2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 76,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "bukett",
+        "translation": "bouquet",
+        "picture": "/images/chatty_bouquet2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 77,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "delfin",
+        "translation": "dolphin",
+        "picture": "/images/chatty_delfin2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 78,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "öra",
+        "translation": "ear",
+        "picture": "/images/chatty_ear2.png",
+        "answer": "ett",
         "level": "easy"
       },
       {
         "id": 79,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "öga",
+        "translation": "eye",
+        "picture": "/images/chatty_eye2.png",
+        "answer": "ett",
         "level": "easy"
       },
       {
         "id": 80,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "fot",
+        "translation": "foot",
+        "picture": "/images/chatty_fot2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 81,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "flamingo",
+        "translation": "flamingo",
+        "picture": "/images/chatty_flamingo2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 82,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "fotboll",
+        "translation": "football",
+        "picture": "/images/chatty_fotboll2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 83,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "räv",
+        "translation": "fox",
+        "picture": "/images/chatty_fox2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 84,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "frimärke",
+        "translation": "postal stamp",
+        "picture": "/images/chatty_frimarke2.png",
+        "answer": "ett",
         "level": "easy"
       },
       {
         "id": 85,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "groda",
+        "translation": "frog",
+        "picture": "/images/chatty_groda2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 86,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "haj",
+        "translation": "shark",
+        "picture": "/images/chatty_haj2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 87,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "hare",
+        "translation": "hare",
+        "picture": "/images/chatty_hare2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 88,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "kalas",
+        "translation": "party",
+        "picture": "/images/chatty_kalas2.png",
+        "answer": "ett",
         "level": "easy"
       },
       {
         "id": 89,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "kamera",
+        "translation": "camera",
+        "picture": "/images/chatty_kamera2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 90,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
-        "answer": "",
+        "word": "lama",
+        "translation": "llama",
+        "picture": "/images/chatty_lama2.png",
+        "answer": "en",
         "level": "easy"
       },
       {
         "id": 91,
-        "word": "",
-        "translation": "",
-        "picture": "/images/chatty_xxx2.png",
+        "word": "lamm",
+        "translation": "lamb",
+        "picture": "/images/chatty_lamm2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 92,
+        "word": "näsa",
+        "translation": "nose",
+        "picture": "/images/chatty_nose2.png",
         "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 93,
+        "word": "pass",
+        "translation": "passport",
+        "picture": "/images/chatty_passport2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 94,
+        "word": "sköldpadda",
+        "translation": "turtle",
+        "picture": "/images/chatty_turtle_new2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 95,
+        "word": "rådjur",
+        "translation": "deer",
+        "picture": "/images/chatty_deer2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 96,
+        "word": "örn",
+        "translation": "eagle",
+        "picture": "/images/chatty_eagle.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 97,
+        "word": "älg",
+        "translation": "moose",
+        "picture": "/images/chatty_moose2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 98,
+        "word": "orm",
+        "translation": "snake",
+        "picture": "/images/chatty_orm2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 99,
+        "word": "panda",
+        "translation": "panda",
+        "picture": "/images/chatty_panda.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 100,
+        "word": "isbjörn",
+        "translation": "polar bear",
+        "picture": "/images/chatty_polarbear.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 101,
+        "word": "ekorre",
+        "translation": "squirrel",
+        "picture": "/images/chatty_ekorre2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 102,
+        "word": "val",
+        "translation": "whale",
+        "picture": "/images/chatty_val2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 103,
+        "word": "varg",
+        "translation": "wolf",
+        "picture": "/images/chatty_wolf2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 104,
+        "word": "flodhäst",
+        "translation": "hippo",
+        "picture": "/images/chatty_hippo2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 105,
+        "word": "nyckelpiga",
+        "translation": "ladybug",
+        "picture": "/images/chatty_ladybug2.png",
+        "answer": "en",
         "level": "easy"
       }
     ]
