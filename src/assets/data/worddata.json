@@ -380,7 +380,7 @@
         "id": 48,
         "word": "måne",
         "translation": "moon",
-        "picture": "/images/image-from-rawpixel-id-3966504-png-fixed.png",
+        "picture": "/images/chatty_halfmoon2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -667,7 +667,7 @@
       {
         "id": 84,
         "word": "frimärke",
-        "translation": "postal stamp",
+        "translation": "postage stamp",
         "picture": "/images/chatty_frimarke2.png",
         "answer": "ett",
         "level": "easy"
@@ -733,7 +733,7 @@
         "word": "näsa",
         "translation": "nose",
         "picture": "/images/chatty_nose2.png",
-        "answer": "",
+        "answer": "en",
         "level": "easy"
       },
       {
@@ -820,7 +820,7 @@
         "id": 103,
         "word": "varg",
         "translation": "wolf",
-        "picture": "/images/chatty_wolf2.png",
+        "picture": "/images/chatty_wolf.png",
         "answer": "en",
         "level": "easy"
       },
