@@ -35,10 +35,8 @@ export const App = () => {
   };
 
   const handlePracticeButtonClick = () => {
-    setShowGameboard(true);
     console.log('handlePracticeButtonClick har nu körts');
-    // Dispatch the "startTheGame" action when the "Play" button is clicked
-    dispatch(game.actions.startTheGame());
+    // Dispatch the "xxx" action when the "Practice" button is clicked
   };
 
   return (
@@ -63,19 +61,3 @@ export const App = () => {
     </div>
   );
 }
-
-/*
-import React from 'react'
-import { Header } from './components/Header.js';
-import { Gameboard } from './components/Gameboard.js';
-// import { Menu } from './components/Menu.js';
-
-export const App = () => {
-  return (
-    <div className="main">
-      <Header />
-      <Gameboard />
-    </div>
-  )
-}
-*/

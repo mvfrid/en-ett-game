@@ -1,7 +1,7 @@
 
 .card {
     width: auto; /* Width adjusts to content */
-    max-width: 230px; /* Maximum width limit */
+    max-width: 280px; /* Maximum width limit */
     max-height: 200px;
     background: white;
     border: 1px solid black;

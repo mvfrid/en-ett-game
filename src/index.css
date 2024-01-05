@@ -139,6 +139,14 @@ code {
 
 .menubuttons {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.menubuttonsrest {
+  display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
@@ -153,8 +161,10 @@ code {
   max-width: 65px;
 }
 
+
 .iconbox {
   display: flex;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -164,6 +174,25 @@ code {
   background: rgb(110,29,171);
   background: linear-gradient(308deg, rgba(110,29,171,1) 21%, rgba(130,80,255,1) 60%);
 }
+
+.iconbox.play {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  flex-direction: column;
+  gap: 0;
+}
+
+.icon.play {
+  max-width: 85px;
+}
+
+
+
+.iconbox.play p {
+  font-size: 28px;
+}
+
 
 .iconbox:hover {
   box-shadow: 10px 10px 35px -10px rgba(0,0,0,0.75);
