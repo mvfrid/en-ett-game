@@ -208,12 +208,12 @@ code {
 
 
 .backbtnimg {
-  max-width: 50px;
+  max-width: 60px;
 }
 
 .backbtn p {
   color: white;
-  font-size: 22px;
+  font-size: 28px;
 }
 
 
@@ -387,6 +387,14 @@ code {
   
   .icon {
     max-width: 50px;
+  }
+
+  .backbtnimg {
+    max-width: 50px;
+  }
+
+  .backbtn p {
+    font-size: 22px;
   }
 
   .box {

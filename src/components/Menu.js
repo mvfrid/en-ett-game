@@ -7,6 +7,7 @@ export const Menu = ({
   onProfileButtonClick,
   onStatisticsButtonClick,
   onSettingsButtonClick,
+  onInfoButtonClick,
   onLogoutButtonClick
 }) => {
   return (
@@ -26,6 +27,10 @@ export const Menu = ({
           <button className="iconbox" type="button" onClick={onProfileButtonClick}>
             <img src="/logos/icon4b.png" alt="profile button" className="icon" />
             <p>Profil</p>
+          </button>
+          <button className="iconbox" type="button" onClick={onInfoButtonClick}>
+            <img src="/logos/icon9b.png" alt="button" className="icon" />
+            <p>Info</p>
           </button>
           <button className="iconbox" type="button" onClick={onStatisticsButtonClick}>
             <img src="/logos/icon6b.png" alt="button" className="icon" />

@@ -4,7 +4,7 @@
         "id": 2,
         "word": "apelsin",
         "translation": "orange",
-        "picture": "https://i.postimg.cc/DZmzxZt0/apelsin3.jpg",
+        "picture": "/images/chatty_orange2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -153,11 +153,27 @@
         "level": "easy"
       },
       {
-        "id": 71,
+        "id": 72,
         "word": "löpband",
         "translation": "treadmill",
         "picture": "/images/chatty_treadmill2.png",
         "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 44,
+        "word": "schampoflaska",
+        "translation": "shampoo bottle",
+        "picture": "/images/chatty_schampoo2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 45,
+        "word": "tvål",
+        "translation": "soap",
+        "picture": "/images/chatty_soap2.png",
+        "answer": "en",
         "level": "easy"
       }
     ]

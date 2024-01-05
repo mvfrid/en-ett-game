@@ -12,7 +12,7 @@
         "id": 2,
         "word": "apelsin",
         "translation": "orange",
-        "picture": "https://i.postimg.cc/DZmzxZt0/apelsin3.jpg",
+        "picture": "/images/chatty_orange2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -569,11 +569,163 @@
         "level": "easy"
       },
       {
-        "id": 71,
+        "id": 72,
         "word": "löpband",
         "translation": "treadmill",
         "picture": "/images/chatty_treadmill2.png",
         "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 73,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 74,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 75,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 76,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 77,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 78,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 79,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 80,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 81,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 82,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 83,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 84,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 85,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 86,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 87,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 88,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 89,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 90,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      },
+      {
+        "id": 91,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
         "level": "easy"
       }
     ]

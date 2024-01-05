@@ -1,0 +1,11 @@
+
+,
+      {
+        "id": 0,
+        "word": "",
+        "translation": "",
+        "picture": "/images/chatty_xxx2.png",
+        "answer": "",
+        "level": "easy"
+      }
+
