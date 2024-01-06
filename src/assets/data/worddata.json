@@ -943,6 +943,182 @@
         "picture": "/images/chatty_library2.png",
         "answer": "ett",
         "level": "easy"
+      },
+      {
+        "id": 119,
+        "word": "konstnär",
+        "translation": "artist",
+        "picture": "/images/chatty_artist2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 120,
+        "word": "astronaut",
+        "translation": "astronaut",
+        "picture": "/images/chatty_astronaut2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 121,
+        "word": "ballerina",
+        "translation": "ballerina",
+        "picture": "/images/chatty_ballerina2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 122,
+        "word": "batteri",
+        "translation": "battery",
+        "picture": "/images/chatty_battery2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 123,
+        "word": "karusell",
+        "translation": "carousel",
+        "picture": "/images/chatty_carousel2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 124,
+        "word": "läkare",
+        "translation": "doctor",
+        "picture": "/images/chatty_doctor2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 125,
+        "word": "ingenjör",
+        "translation": "engineer",
+        "picture": "/images/chatty_engineer2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 126,
+        "word": "mekaniker",
+        "translation": "mechanic",
+        "picture": "/images/chatty_mechanic2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 127,
+        "word": "lärare",
+        "translation": "teacher",
+        "picture": "/images/chatty_teacher2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 128,
+        "word": "papegoja",
+        "translation": "parrot",
+        "picture": "/images/chatty_parrot2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 129,
+        "word": "detektiv",
+        "translation": "detective",
+        "picture": "/images/chatty_detective2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 130,
+        "word": "bonde",
+        "translation": "farmer",
+        "picture": "/images/chatty_farmer2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 131,
+        "word": "skådespelare",
+        "translation": "actor",
+        "picture": "/images/chatty_actor2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 132,
+        "word": "entreprenör",
+        "translation": "entrepreneur",
+        "picture": "/images/chatty_entrepreneur2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 133,
+        "word": "kock",
+        "translation": "chef",
+        "picture": "/images/chatty_chef_female2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 134,
+        "word": "brandman",
+        "translation": "fireman",
+        "picture": "/images/chatty_fireman2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 135,
+        "word": "programmerare",
+        "translation": "programmer",
+        "picture": "/images/chatty_hacker2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 136,
+        "word": "influencer",
+        "translation": "influencer",
+        "picture": "/images/chatty_influencer2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 137,
+        "word": "domare",
+        "translation": "judge",
+        "picture": "/images/chatty_judge2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 138,
+        "word": "sjuksköterska",
+        "translation": "nurse",
+        "picture": "/images/chatty_nurse2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 139,
+        "word": "polis",
+        "translation": "police",
+        "picture": "/images/chatty_police2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 140,
+        "word": "författare",
+        "translation": "writer",
+        "picture": "/images/chatty_writer2.png",
+        "answer": "en",
+        "level": "easy"
       }
     ]
   }
