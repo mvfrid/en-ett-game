@@ -895,6 +895,54 @@
         "picture": "/images/chatty_star_new2.png",
         "answer": "en",
         "level": "easy"
+      },
+      {
+        "id": 113,
+        "word": "plåster",
+        "translation": "band-aid",
+        "picture": "/images/chatty_bandaid2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 114,
+        "word": "kyrka",
+        "translation": "church",
+        "picture": "/images/chatty_church2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 115,
+        "word": "moské",
+        "translation": "mosque",
+        "picture": "/images/chatty_mosque2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 116,
+        "word": "skola",
+        "translation": "school",
+        "picture": "/images/chatty_skola2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 117,
+        "word": "hundben",
+        "translation": "dogbone",
+        "picture": "/images/chatty_hundben2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 118,
+        "word": "bibliotek",
+        "translation": "library",
+        "picture": "/images/chatty_library2.png",
+        "answer": "ett",
+        "level": "easy"
       }
     ]
   }
