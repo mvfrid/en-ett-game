@@ -36,7 +36,7 @@
         "id": 5,
         "word": "bord",
         "translation": "table",
-        "picture": "https://i.postimg.cc/fT0cqgMD/bord1.jpg",
+        "picture": "/images/chatty_bord_new2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -52,7 +52,7 @@
         "id": 7,
         "word": "glas",
         "translation": "glass",
-        "picture": "https://i.postimg.cc/Gp3bD3LK/glas1.jpg",
+        "picture": "/images/chatty_glas2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -76,7 +76,7 @@
         "id": 10,
         "word": "sol",
         "translation": "sun",
-        "picture": "/images/chatty_sol2.png",
+        "picture": "/images/chatty_sun2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -116,7 +116,7 @@
         "id": 15,
         "word": "hjärta",
         "translation": "heart",
-        "picture": "https://i.postimg.cc/ydgG226c/hjarta3.jpg",
+        "picture": "/images/chatty_heart2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -140,7 +140,7 @@
         "id": 18,
         "word": "hjul",
         "translation": "wheel",
-        "picture": "https://i.postimg.cc/yxDnP4hF/hjul1.jpg",
+        "picture": "/images/chatty_hjul2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -148,7 +148,7 @@
         "id": 19,
         "word": "badkar",
         "translation": "bathtub",
-        "picture": "https://i.postimg.cc/7LLHXmcx/badkar1.jpg",
+        "picture": "/images/chatty_bathtub2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -156,7 +156,7 @@
         "id": 20,
         "word": "tröja",
         "translation": "sweater",
-        "picture": "https://i.postimg.cc/vTnHfTKf/troja1.jpg",
+        "picture": "/images/chatty_sweater2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -164,7 +164,7 @@
         "id": 21,
         "word": "brev",
         "translation": "letter",
-        "picture": "/images/image-from-rawpixel-id-6240610-original2-compressed.jpg",
+        "picture": "/images/chatty_brev2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -172,7 +172,7 @@
         "id": 22,
         "word": "hund",
         "translation": "dog",
-        "picture": "/images/image-from-rawpixel-id-12087075-original-compressed.png",
+        "picture": "/images/chatty_dog2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -188,7 +188,7 @@
         "id": 24,
         "word": "läppstift",
         "translation": "lipstick",
-        "picture": "/images/image-from-rawpixel-id-6526123-original2-compressed.jpg",
+        "picture": "/images/chatty_lipstick2b.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -196,7 +196,7 @@
         "id": 25,
         "word": "parfym",
         "translation": "perfume",
-        "picture": "/images/image-from-rawpixel-id-7685968-original-compressed.png",
+        "picture": "/images/chatty_perfume2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -204,7 +204,7 @@
         "id": 26,
         "word": "berg",
         "translation": "mountain",
-        "picture": "/images/image-from-rawpixel-id-6258252-original-compressed.jpg",
+        "picture": "/images/chatty_mountain2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -212,7 +212,7 @@
         "id": 27,
         "word": "fönster",
         "translation": "window",
-        "picture": "/images/image-from-rawpixel-id-6193860-original-compressed.jpg",
+        "picture": "/images/chatty_window2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -220,7 +220,7 @@
         "id": 28,
         "word": "blomma",
         "translation": "flower",
-        "picture": "/images/pink-flower-vector-illustration-800x566-compressed.jpg",
+        "picture": "/images/chatty_blomma2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -228,7 +228,7 @@
         "id": 29,
         "word": "moln",
         "translation": "cloud",
-        "picture": "/images/image-from-rawpixel-id-12072423-original-compressed.png",
+        "picture": "/images/chatty_cloud_detailed2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -244,7 +244,7 @@
         "id": 31,
         "word": "äpple",
         "translation": "apple",
-        "picture": "/images/image-from-rawpixel-id-12902820-original-compressed.jpg",
+        "picture": "/images/chatty_apple2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -252,7 +252,7 @@
         "id": 32,
         "word": "fågel",
         "translation": "bird",
-        "picture": "/images/image-from-rawpixel-id-7063608-png-fixed.png",
+        "picture": "/images/chatty_birdie2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -388,7 +388,7 @@
         "id": 49,
         "word": "ägg",
         "translation": "egg",
-        "picture": "/images/image-from-rawpixel-id-8831341-png-fixed.png",
+        "picture": "/images/chatty_eggs2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -396,7 +396,7 @@
         "id": 50,
         "word": "blixt",
         "translation": "lightning",
-        "picture": "/images/image-from-rawpixel-id-6573760-png-fixed.png",
+        "picture": "/images/chatty_blixt2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -428,7 +428,7 @@
         "id": 54,
         "word": "kikare",
         "translation": "binoculars",
-        "picture": "/images/image-from-rawpixel-id-9974171-png_fixed.png",
+        "picture": "/images/chatty_kikare2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -436,7 +436,7 @@
         "id": 55,
         "word": "åskoväder",
         "translation": "thunder storm",
-        "picture": "/images/image-from-rawpixel-id-9352681-png_fixed.png",
+        "picture": "/images/chatty_thunderstorm2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -444,7 +444,7 @@
         "id": 56,
         "word": "skärp",
         "translation": "belt",
-        "picture": "/images/image-from-rawpixel-id-12362782-original-fixed.png",
+        "picture": "/images/chatty_belt2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -828,7 +828,7 @@
         "id": 104,
         "word": "flodhäst",
         "translation": "hippo",
-        "picture": "/images/chatty_hippo2.png",
+        "picture": "/images/chatty_flodhast2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -837,6 +837,62 @@
         "word": "nyckelpiga",
         "translation": "ladybug",
         "picture": "/images/chatty_ladybug2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 106,
+        "word": "kattunge",
+        "translation": "kitten",
+        "picture": "/images/chatty_kitten2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 107,
+        "word": "hundvalp",
+        "translation": "puppy",
+        "picture": "/images/chatty_puppy2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 108,
+        "word": "nagellack",
+        "translation": "nail polish",
+        "picture": "/images/chatty_nagellack2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 109,
+        "word": "gardin",
+        "translation": "curtain",
+        "picture": "/images/chatty_gardin2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 110,
+        "word": "telefon",
+        "translation": "telephone",
+        "picture": "/images/chatty_telefon2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 111,
+        "word": "stjärnfall",
+        "translation": "falling star",
+        "picture": "/images/chatty_starfall2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 112,
+        "word": "stjärna",
+        "translation": "star",
+        "picture": "/images/chatty_star_new2.png",
         "answer": "en",
         "level": "easy"
       }
