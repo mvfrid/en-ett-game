@@ -48,7 +48,7 @@ export const game = createSlice({
       return {
         ...state,
         gameStart: true,
-        setOfQuestions: getRandomWords(worddata, 7)
+        setOfQuestions: getRandomWords(worddata, 10)
       };
     },
     endTheGame: () => {

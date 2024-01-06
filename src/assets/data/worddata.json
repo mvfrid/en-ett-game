@@ -1119,6 +1119,62 @@
         "picture": "/images/chatty_writer2.png",
         "answer": "en",
         "level": "easy"
+      },
+      {
+        "id": 141,
+        "word": "ö",
+        "translation": "island",
+        "picture": "/images/chatty_island2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 142,
+        "word": "citron",
+        "translation": "lemon",
+        "picture": "/images/chatty_lemon2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 143,
+        "word": "päron",
+        "translation": "pear",
+        "picture": "/images/chatty_pear2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 144,
+        "word": "pirat",
+        "translation": "pirate",
+        "picture": "/images/chatty_pirat2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 145,
+        "word": "snögubbe",
+        "translation": "snow man",
+        "picture": "/images/chatty_snowman2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 146,
+        "word": "enhörning",
+        "translation": "unicorn",
+        "picture": "/images/chatty_unicorn2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 147,
+        "word": "sax",
+        "translation": "scissor",
+        "picture": "/images/chatty_scissor2.png",
+        "answer": "en",
+        "level": "easy"
       }
     ]
   }
