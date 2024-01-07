@@ -65,9 +65,10 @@ code {
 }
 
 .main {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   gap: 10px;
 }
@@ -208,6 +209,11 @@ code {
   color: white;
 }
 
+/*
+.backbtn {
+  position: static;
+}
+*/
 
 .backbtnimg {
   max-width: 60px;
@@ -390,6 +396,14 @@ code {
   .icon {
     max-width: 50px;
   }
+
+  /* funkar ej...
+  .backbtn {
+    position: sticky;
+    bottom: -200px;
+    left: 20px;
+  }  
+  */
 
   .backbtnimg {
     max-width: 50px;
