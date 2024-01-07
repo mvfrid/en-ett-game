@@ -1324,7 +1324,7 @@
         "id": 166,
         "word": "hårfön",
         "translation": "hair dryer",
-        "picture": "/images/chatty_hairbryer2.png",
+        "picture": "/images/chatty_hairdryer2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -1580,7 +1580,7 @@
         "id": 198,
         "word": "spindel",
         "translation": "spider",
-        "picture": "/images/chatty_spider2.png",
+        "picture": "/images/chatty_spindel2.png",
         "answer": "en",
         "level": "easy"
       },
