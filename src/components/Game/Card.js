@@ -19,7 +19,7 @@ export const Card = ({ pickedBox, currentQuestionData }) => {
 
   let wordLengthClass = '';
   if (isShortWord) {
-    wordLengthClass = 'smallWord';
+    wordLengthClass = 'shortWord';
   } else if (isLongWord) {
     wordLengthClass = 'longWord';
   } else {

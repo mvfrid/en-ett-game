@@ -1,3 +1,55 @@
+/*
+:root {
+  --web-large-width: 320px;
+  --web-normal-width: 250px;
+  --web-small-width: 200px;
+
+  --web-preview-large-width: 320px;
+  --web-preview-normal-width: 250px;
+  --web-preview-small-width: 200px;
+
+
+  --mobile-large-width: 250px;
+  --mobile-normal-width: 200px;
+  --mobile-small-width: 150px; 
+  
+  --mobile-preview-large-width: 250px;
+  --mobile-preview-normal-width: 200px;
+  --mobile-preview-small-width: 150px; 
+  
+} */
+
+:root {
+  --web-large-width: 320px;
+  --web-normal-width: 250px;
+  --web-small-width: 200px;
+
+  --web-preview-large-width: 250px;
+  --web-preview-normal-width: 200px;
+  --web-preview-small-width: 150px;
+
+
+  --mobile-large-width: 250px;
+  --mobile-normal-width: 200px;
+  --mobile-small-width: 150px; /* Not used now */
+  
+  --mobile-preview-large-width: 200px;
+  --mobile-preview-normal-width: 150px;
+  --mobile-preview-small-width: 100px; /* Not used now */
+  
+  --img-max-width: 130px;
+  --img-longWord-max-width: 110px;
+  --img-max-height: 160px;
+
+  --img-mobile-max-width: 90px;
+  --img-mobile-max-height: 120px;
+
+  --img-preview-max-width: 70px;
+  --img-preview-max-height: 80px;
+
+  --img-preview-mobile-max-width: 40px;
+  --img-preview-mobile-max-height: 50px;
+}
 
 .cardcontainer {
     width: 100%;
@@ -6,7 +58,7 @@
 
 .card {
     width: auto; /* Width adjusts to content */
-    max-width: 250px; /* Maximum width limit */
+    max-width: var(--web-normal-width); /* Maximum width limit */
     max-height: 200px;
     background: white;
     border: 1px solid black;
@@ -27,37 +79,20 @@
   }
 
   .card.longWord {
-    max-width: 315px;
+    max-width: var(--web-large-width);
     padding: 10px 10px;
   }
-  
-  /* old: 
-  .card-preview {
-    max-width: 250px;
-    max-height: 200px;
-    background: white;
-    border: 1px solid black;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    padding: 10px 20px;
-    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.222);
-    cursor: pointer;
-    position: relative;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1000;
-    pointer-events: none;
+
+  .card.shortWord {
+    max-width: var(--web-small-width); /* smaller max-width for short words */
   }
-  */
+
+
 
   .card-preview {
     width: auto;
-    max-width: 230px;
-    max-height: 200px;
+    max-width: 150px;
+    max-height: 150px;
     background: white;
     border: 1px solid black;
     border-radius: 7px;
@@ -78,17 +113,16 @@
   }
 
   .card-preview.longWord {
-    max-width: 300px;
+    max-width: var(--web-preview-large-width);
     padding: 10px 10px;
+  }
+
+  .card-preview.shortWord {
+    max-width: var(--web-preview-small-width); /* smaller max-width for short words */
   }
   
   .card.dragging {
     opacity: 0;
-  }
-  
-  .card-preview.dragging {
-    opacity: 0.5;
-    border: 4px solid yellow;
   }
   
   .card h2 {
@@ -97,12 +131,12 @@
   }
   
   .card img {
-    max-width: 130px;
-    max-height: 160px;
+    max-width: var(--img-max-width);
+    max-height: var(--img-max-height);
   }
 z
   .card.longWord img {
-    max-width: 110px;
+    max-width: var(--img-longWord-max-width);
   }
   
   .card-preview h2 {
@@ -134,29 +168,21 @@ z
   }
 
 
-  
-@media (max-width: 850px) {
-
-    .cardcontainer {
-      width: 100%;
-    }
-}
 
 
 @media (max-width: 500px) {
 
     .cardcontainer {
-      width: 100%;
       height: 150px;
     }
   
     .card {
-      max-width: 200px;
+      max-width: var(--mobile-normal-width);
       max-height: 180px;
     }
 
     .card-preview {
-        max-width: 200px;
+        max-width: var(--mobile-preview-normal-width);
         max-height: 180px;
       }
   
@@ -165,37 +191,29 @@ z
     }
     
     .card img {
-      max-width: 90px;
-      max-height: 120px;
+      max-width: var(--img-mobile-max-width);
+      max-height: var(--img-mobile-max-height);
     }
 
     .card-preview h2 {
-        font-size: 28px;  }
+        font-size: 18px;  } /* 28px */
       
       .card-preview img {
-        max-width: 90px;
-        max-height: 120px;
-      }
-
-    .card.smallWord {
-        max-width: 150px; /* smaller max-width for short words */
-      }
-
-      .card-preview.smallWord {
-        max-width: 150px; /* smaller max-width for short words */
+        max-width: var(--img-preview-mobile-max-width);
+        max-height: var(--img-preview-mobile-max-height);
       }
 
       
     .card.longWord {
-        max-width: 250px; /* larger max-width for long words */
-      }
-
-      .card-preview.longWord {
-        max-width: 250px; /* larger max-width for long words */
+        max-width: var(--mobile-large-width) ; /* larger max-width for long words, 250px now */
       }
 
       .card.longWord h2 {
         font-size: 26px;  
+      }
+
+      .card-preview.longWord {
+        max-width: var(--mobile-preview-large-width); /* larger max-width for long words, 250px now */
       }
 
       .card-preview.longWord h2 {
@@ -222,12 +240,17 @@ NORMAL
 
 .card.longWord - longWord läggs till om ordet är längre än 10 bokstäver
 
+.card.shortWord - shortWord läggs till om ordet är längre än 10 bokstäver
+
 PREVIEW
 
 .card-preview - kortet som visas när man drar runt det
 
 .card-preview.dragging - kortet som visas när man drar runt det. Gjorde ingenting på web när jag ändrade opactitet till 0.5
-                          dubbelkolla på mobilen och ändra tilbaka eller ta bort
+                          dubbelkolla på mobilen och ändra tilbaka eller ta bort. Gjorde inget på mobilen heller. Tror kanske
+                          detta egentligen är samma som .card-preview??
+                          Tror ej den finns:
+                          const cardClassName = `card ${isDragging ? 'dragging' : ''} ${wordLengthClass}`;
 
 
 
