@@ -28,13 +28,13 @@
   --gameboard-border-radius: 35px;
 
   --gameboard-height: 600px;
-  --gameboard-height-mobile: 470px;
+  --gameboard-height-mobile: 440px;
 
   --menu-height: 400px;
   --menu-height-mobile: 300px;
 
   --boxes-height: 300px;
-  --boxes-height-mobile: 185px;
+  --boxes-height-mobile: 175px;
 }
 
 body {
