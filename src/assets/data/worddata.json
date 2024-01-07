@@ -346,8 +346,8 @@
       },
       {
         "id": 44,
-        "word": "schampoflaska",
-        "translation": "shampoo bottle",
+        "word": "flaska schampo",
+        "translation": "bottle of shampoo",
         "picture": "/images/chatty_schampoo2.png",
         "answer": "en",
         "level": "easy"
@@ -1686,6 +1686,14 @@
         "translation": "veterinary",
         "picture": "/images/chatty_vet2.png",
         "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 212,
+        "word": "schampo",
+        "translation": "shampoo",
+        "picture": "/images/chatty_schampo_new2.png",
+        "answer": "ett",
         "level": "easy"
       }
     ]
