@@ -32,13 +32,14 @@
   --img-longWord-max-width: 110px;
   --img-max-height: 160px;
 
-  --img-mobile-max-width: 90px;
-  --img-mobile-max-height: 120px;
+  --img-mobile-max-width: 80px;
+  --img-mobile-max-height: 110px;
 }
 
 .cardcontainer {
     width: 100%;
     height: 180px;
+    /* background-color: rgba(0, 207, 243, 0.39); */
   }
 
 .card {

@@ -37,6 +37,10 @@
   --boxes-height-mobile: 175px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   /*
@@ -112,6 +116,9 @@ code {
   height: var(--gameboard-height);
   background-color: var(--light-background);
   border-radius: var(--gameboard-border-radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
   /*------------ MENY -------------*/
@@ -159,11 +166,9 @@ code {
   margin: 0 10px 25px 10px;
 }
 
-
 .icon {
   max-width: 65px;
 }
-
 
 .iconbox {
   display: flex;
@@ -190,12 +195,9 @@ code {
   max-width: 85px;
 }
 
-
-
 .iconbox.play p {
   font-size: 28px;
 }
-
 
 .iconbox:hover {
   box-shadow: 10px 10px 35px -10px rgba(0,0,0,0.75);
@@ -233,7 +235,7 @@ code {
   justify-content: center;
   align-items: center;
   gap: 1px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   z-index: 1;
 }
 
@@ -286,7 +288,8 @@ code {
   align-items: center;
   gap: 10px;
   font-size: 22px;
-  margin: 15px 25px 2px 25px;
+  /* margin: 15px 25px 2px 25px; */
+  margin: 10px;
 }
 
 .messageboard img {
@@ -343,6 +346,12 @@ code {
     border-radius: 0;
     min-height: var(--menu-height);
   }
+
+  
+.boxes {
+  margin-bottom: 20px;
+}
+
 
 
   .box {
@@ -419,7 +428,9 @@ code {
 
   .boxes {
     gap: 1px;
+    margin-bottom: 20px;
   }
+
 
   .summary {
     border-radius: 0;
