@@ -24,18 +24,9 @@
   --web-normal-width: 250px;
   --web-small-width: 200px;
 
-  --web-preview-large-width: 250px;
-  --web-preview-normal-width: 200px;
-  --web-preview-small-width: 150px;
-
-
   --mobile-large-width: 250px;
   --mobile-normal-width: 200px;
   --mobile-small-width: 150px; /* Not used now */
-  
-  --mobile-preview-large-width: 200px;
-  --mobile-preview-normal-width: 150px;
-  --mobile-preview-small-width: 100px; /* Not used now */
   
   --img-max-width: 130px;
   --img-longWord-max-width: 110px;
@@ -43,12 +34,6 @@
 
   --img-mobile-max-width: 90px;
   --img-mobile-max-height: 120px;
-
-  --img-preview-max-width: 70px;
-  --img-preview-max-height: 80px;
-
-  --img-preview-mobile-max-width: 40px;
-  --img-preview-mobile-max-height: 50px;
 }
 
 .cardcontainer {
@@ -91,7 +76,7 @@
 
   .card-preview {
     width: auto;
-    max-width: 150px;
+    max-width: var(--web-normal-width);
     max-height: 150px;
     background: white;
     border: 1px solid black;
@@ -113,12 +98,12 @@
   }
 
   .card-preview.longWord {
-    max-width: var(--web-preview-large-width);
+    max-width: var(--web-large-width);
     padding: 10px 10px;
   }
 
   .card-preview.shortWord {
-    max-width: var(--web-preview-small-width); /* smaller max-width for short words */
+    max-width: var(--web-small-width); /* smaller max-width for short words */
   }
   
   .card.dragging {
@@ -145,15 +130,14 @@ z
   }
   
   .card-preview img {
-    max-width: 130px;
-    max-height: 160px;
+    max-width: var(--img-max-width);
+    max-height: var(--img-max-height);
   }
 
   .card-preview.longWord img {
-    max-width: 110px;
+    max-width: var(--img-longWord-max-width);
   }
   
-
   
   .card-text-box {
     display: flex;
@@ -182,7 +166,7 @@ z
     }
 
     .card-preview {
-        max-width: var(--mobile-preview-normal-width);
+        max-width: var(--mobile-normal-width);
         max-height: 180px;
       }
   
@@ -196,11 +180,12 @@ z
     }
 
     .card-preview h2 {
-        font-size: 18px;  } /* 28px */
+        font-size: 28px; 
+      } 
       
       .card-preview img {
-        max-width: var(--img-preview-mobile-max-width);
-        max-height: var(--img-preview-mobile-max-height);
+        max-width: var(--img-mobile-max-width);
+        max-height: var(--img-mobile-max-height);
       }
 
       
@@ -213,7 +198,7 @@ z
       }
 
       .card-preview.longWord {
-        max-width: var(--mobile-preview-large-width); /* larger max-width for long words, 250px now */
+        max-width: var(--mobile-large-width); /* larger max-width for long words, 250px now */
       }
 
       .card-preview.longWord h2 {
