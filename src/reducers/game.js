@@ -59,12 +59,15 @@ export const game = createSlice({
 
     // Starts the game, by setting gameStart to true and running the getRandomWords function
     // Updating the state with these randomly selected words
-    startTheGame: (state) => {
-      return {
-        ...state,
-        gameStart: true,
-        setOfQuestions: getRandomWords(worddata, 10)
-      };
+    startTheGame: () => {
+      // Reset the state to initial state
+      const newState = { ...initialState };
+
+      // Set gameStart to true and update setOfQuestions
+      newState.gameStart = true;
+      newState.setOfQuestions = getRandomWords(worddata, 10);
+
+      return newState;
     },
     // Sets gameOver to true, which ends the game (renders Summary component)
     // No re-setting of the state is done here
