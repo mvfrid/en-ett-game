@@ -27,26 +27,39 @@ export const Gameboard = () => {
     (state) => state.game.currentQuestionIndex
   );
 
+  // Checks if the user is on a touch device (mobile, etc)
   const isTouchDevice = () => {
     return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
   };
 
-  // Determine the appropriate backend based on the device
+  // Determine the appropriate Dnd-backend based on the device
   const backend = isTouchDevice() ? TouchBackend : HTML5Backend;
 
   const handleDrop = (targetContainer) => {
+    // targetContainer represents the identifier of the container where the card is dropped.
     setCardPosition({ container: targetContainer });
-    setBoxesDisabled(true); // Disable the boxes
+    // Disable the boxes when card have been dropped, to prevent changing answer.
+    setBoxesDisabled(true);
 
+    // Skip the timeout logic if the card is dropped in the "start" container
+    if (targetContainer === 'start') {
+      setBoxesDisabled(false); // Un-disable the boxes if card is back in 'start'
+      return; // Exit the function early
+    }
+
+    // Store correct answer for the question in a variable
     const correctAnswer = setOfQuestions[currentQuestionIndex].answer;
     // Check if the dropped card's container matches the correct answer
     const isCorrectAnswer = targetContainer === correctAnswer;
 
+    // A delayed function runs after 2s, if targetcontainer != start.
+    // Sends isCorrectAnswer to the game reducer and runs its "submitAnswer"
+    // Here I will add some more feedback features (sound, color, etc) later
     setTimeout(() => {
       dispatch(game.actions.submitAnswer({ isCorrectAnswer }));
       setBoxesDisabled(false);
       setCardPosition(initialCardPosition);
-    }, 2000); // 2000 milliseconds (2 seconds)
+    }, 2000); // 2000 milliseconds
   };
 
   return (
