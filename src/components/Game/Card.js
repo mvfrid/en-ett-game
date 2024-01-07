@@ -15,7 +15,7 @@ export const Card = ({ pickedBox, currentQuestionData }) => {
 
   // Determine if the word is short, medium, or long.
   const isShortWord = currentQuestionData.word.length < 5;
-  const isLongWord = currentQuestionData.word.length > 10;
+  const isLongWord = currentQuestionData.word.length > 8;
 
   let wordLengthClass = '';
   if (isShortWord) {
