@@ -59,7 +59,12 @@ export const Gameboard = () => {
       dispatch(game.actions.submitAnswer({ isCorrectAnswer }));
       setBoxesDisabled(false);
       setCardPosition(initialCardPosition);
-    }, 2000); // 2000 milliseconds
+
+      // Check if the game should end after this question
+      if (currentQuestionIndex + 1 === setOfQuestions.length) {
+        dispatch(game.actions.endTheGame());
+      }
+    }, 2000);
   };
 
   return (

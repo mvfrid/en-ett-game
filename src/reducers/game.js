@@ -47,18 +47,16 @@ export const game = createSlice({
       // Handles adding points to the score
       if (isCorrectAnswer) {
         state.score += 1;
-      } else {
-        state.score -= 0;
       }
 
-      // Checks if currentQuestionIndex = setOfQuestions.length, then the game is over
-      // If not, increments currentQuestionIndex with 1 to reflect the new question index
-      if (state.currentQuestionIndex + 1 === state.setOfQuestions.length) {
-        state.gameOver = true;
+      // Handles incrementing the current question index
+      if (state.currentQuestionIndex === state.setOfQuestions.length) {
+        state.currentQuestionIndex += 0;
       } else {
         state.currentQuestionIndex += 1;
       }
     },
+
     // Starts the game, by setting gameStart to true and running the getRandomWords function
     // Updating the state with these randomly selected words
     startTheGame: (state) => {
@@ -68,11 +66,12 @@ export const game = createSlice({
         setOfQuestions: getRandomWords(worddata, 10)
       };
     },
-    // Not really in use yet, it only returns the game state to its initial state
-    endTheGame: () => {
+    // Sets gameOver to true, which ends the game (renders Summary component)
+    // No re-setting of the state is done here
+    endTheGame: (state) => {
       console.log('Nu har endTheGame gått iväg');
+      state.gameOver = true;
       // Here we need to save and visualize the results
-      return initialState;
     }
   }
 });

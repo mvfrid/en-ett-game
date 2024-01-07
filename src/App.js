@@ -16,10 +16,10 @@ export const App = () => {
   );
 
   console.log(
-    'Updated Initial State:',
-    updatedInitialState,
-    'currentQuestionIndex',
-    currentQuestionIndex
+    'index',
+    currentQuestionIndex,
+    'Current State:',
+    updatedInitialState
   );
 
   const handleMenuButtonClick = () => {
