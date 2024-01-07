@@ -87,7 +87,8 @@
   }
   
   .card-preview.dragging {
-    opacity: 0;
+    opacity: 0.5;
+    border: 4px solid yellow;
   }
   
   .card h2 {
@@ -203,3 +204,33 @@ z
   
 
 }
+
+/* 
+
+.cardcontainer - själva ytan där kortet ligger i början
+
+NORMAL
+
+.card - vanliga kortet
+    img
+    h2
+       .card-text-box - div, ordet + engelska ordet
+          p
+
+.card.dragging - vanliga kortet (som ligger i cardcontainer), den ligger kvar där "fysiskt", men ska 
+                  vara osynlig under tiden man drar i det
+
+.card.longWord - longWord läggs till om ordet är längre än 10 bokstäver
+
+PREVIEW
+
+.card-preview - kortet som visas när man drar runt det
+
+.card-preview.dragging - kortet som visas när man drar runt det. Gjorde ingenting på web när jag ändrade opactitet till 0.5
+                          dubbelkolla på mobilen och ändra tilbaka eller ta bort
+
+
+
+
+
+*/
