@@ -1,7 +1,7 @@
 
 ,
       {
-        "id": ,
+        "id": 2,
         "word": "",
         "translation": "",
         "picture": "/images/chatty_xxx2.png",
