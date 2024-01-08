@@ -20,17 +20,17 @@
 } */
 
 :root {
-  --web-large-width: 320px;
-  --web-normal-width: 250px;
-  --web-small-width: 200px;
+  --web-large-width: 360px;
+  --web-normal-width: 300px;
+  --web-small-width: 260px;
 
   --mobile-large-width: 270px;
   --mobile-normal-width: 220px;
   --mobile-small-width: 150px; /* Not used now */
   
-  --img-max-width: 130px;
-  --img-longWord-max-width: 100px;
-  --img-max-height: 160px;
+  --img-max-width: 120px;
+  --img-longWord-max-width: 100px; /* Not used now */
+  --img-max-height: 150px;
 
   --img-mobile-max-width: 80px;
   --img-mobile-max-height: 110px;
@@ -45,13 +45,13 @@
 .card {
     width: auto; /* Width adjusts to content */
     max-width: var(--web-normal-width); /* Maximum width limit */
-    max-height: 200px;
+    max-height: 180px;
     background: white;
     border: 1px solid black;
     border-radius: 7px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 10px;
     padding: 10px 20px;
@@ -73,18 +73,16 @@
     max-width: var(--web-small-width); /* smaller max-width for short words */
   }
 
-
-
   .card-preview {
     width: auto;
     max-width: var(--web-normal-width);
-    max-height: 150px;
-    background: white;
+    max-height: 180px;
+    background: rgb(255, 255, 255);
     border: 1px solid black;
     border-radius: 7px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     gap: 10px;
     padding: 10px 20px;
@@ -100,7 +98,7 @@
 
   .card-preview.longWord {
     max-width: var(--web-large-width);
-    padding: 10px 10px;
+    padding: 10px;
   }
 
   .card-preview.shortWord {
@@ -108,7 +106,7 @@
   }
   
   .card.dragging {
-    opacity: 0;
+    opacity: 0.2;
   }
   
   .card h2 {
@@ -120,10 +118,12 @@
     max-width: var(--img-max-width);
     max-height: var(--img-max-height);
   }
-z
+
+  /*
   .card.longWord img {
     max-width: var(--img-longWord-max-width);
   }
+  */
   
   .card-preview h2 {
     font-size: 32px;
@@ -135,9 +135,11 @@ z
     max-height: var(--img-max-height);
   }
 
+  /*
   .card-preview.longWord img {
     max-width: var(--img-longWord-max-width);
   }
+  */
   
   
   .card-text-box {
