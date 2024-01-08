@@ -26,20 +26,19 @@
 
   --mobile-large-width: 270px;
   --mobile-normal-width: 220px;
-  --mobile-small-width: 150px; /* Not used now */
+  --mobile-small-width: 190px; 
   
   --img-max-width: 120px;
   --img-longWord-max-width: 100px; /* Not used now */
   --img-max-height: 150px;
 
-  --img-mobile-max-width: 80px;
-  --img-mobile-max-height: 100px;
+  --img-mobile-max-width: 75px;
+  --img-mobile-max-height: 95px;
 }
 
 .cardcontainer {
     width: 100%;
     height: 180px;
-    /* background-color: rgba(0, 207, 243, 0.39); */
   }
 
 .card, .card-preview {
@@ -156,6 +155,11 @@
       .card.longWord h2, .card-preview.longWord h2 {
         font-size: 26px;  
       }
+
+      .card.shortWord, .card-preview.shortWord {
+        max-width: var(--mobile-small-width) ; /* larger max-width for long words, 250px now */
+      }
+
 
 
 
