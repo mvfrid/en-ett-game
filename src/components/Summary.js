@@ -17,10 +17,10 @@ export const Summary = () => {
       <p className="score">
         Du hade {score} rätt av {setOfQuestions.length}
       </p>
-      {score < 2 && <p>Öva lite mer till nästa gång...</p>}
-      {score >= 2 && score < 4 && <p>Inte så illa!</p>}
-      {score >= 4 && <p>Bra jobbat!</p>}
-
+      {score < 2 && <p>Bra kämpat! Öva lite mer till nästa gång...</p>}
+      {score >= 2 && score < 6 && <p>Inte så illa!</p>}
+      {score >= 6 && score < 9 && <p>Bra jobbat!</p>}
+      {score >= 9 && <p>Wow! Du är ju helt fantastisk!</p>}
     </div>
   );
 };
