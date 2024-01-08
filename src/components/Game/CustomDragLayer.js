@@ -21,7 +21,7 @@ export const CustomDragLayer = () => {
   }
 
   return (
-    <div style={adjustedStyle}>
+    <div className="tjohej" style={adjustedStyle}>
       {renderItem()}
     </div>
   );
