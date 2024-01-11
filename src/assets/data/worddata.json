@@ -2003,7 +2003,7 @@
       {
         "id": 251,
         "word": "ficklampa",
-        "translation": "flash light",
+        "translation": "flashlight",
         "picture": "/images/chatty_ficklampa2.png",
         "answer": "en",
         "level": "easy"
@@ -2182,6 +2182,14 @@
         "translation": "sea monster",
         "picture": "/images/chatty_sea_monster2.png",
         "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 273,
+        "word": "fisk",
+        "translation": "fish",
+        "picture": "/images/chatty_fish2.png",
+        "answer": "en",
         "level": "easy"
       }
     ]
