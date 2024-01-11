@@ -700,7 +700,7 @@
         "id": 88,
         "word": "kalas",
         "translation": "party",
-        "picture": "/images/chatty_kalas2.png",
+        "picture": "/images/chatty_bdaykalas2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -1924,7 +1924,7 @@
         "id": 241,
         "word": "par glasögon",
         "translation": "pair of glasses",
-        "picture": "/images/chatty_parglasögon2.png",
+        "picture": "/images/chatty_parglasogon2.png",
         "answer": "ett",
         "level": "easy"
       },
