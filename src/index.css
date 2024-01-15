@@ -21,9 +21,10 @@
   /*----------- GENERELLT ------------*/
 
 :root {
-  --light-background: rgb(202, 216, 228);
+  --light-background: rgb(202, 216, 228); /* #CAD8E4 */
   --dark-background: #000048; 
   --mid-blue:  #3535b1; 
+  --light-background-gradient: linear-gradient(360deg, hsla(206, 34%, 87%, 1) 0%, hsla(210, 46%, 79%, 1) 91%);
 
   --gameboard-border-radius: 35px;
 
@@ -115,6 +116,7 @@ code {
   max-width: 850px;
   height: var(--gameboard-height);
   background-color: var(--light-background);
+  background: var(--light-background-gradient);
   border-radius: var(--gameboard-border-radius);
   display: flex;
   flex-direction: column;
@@ -128,6 +130,7 @@ code {
   max-width: 800px;
   min-height: var(--menu-height);
   background-color: var(--light-background);
+  background: var(--light-background-gradient);
   border-radius: 25px;
   display: flex;
   flex-direction: column;
@@ -305,6 +308,7 @@ code {
   max-width: 800px;
   min-height: var(--menu-height);
   background-color: var(--light-background);
+  background: var(--light-background-gradient);
   border-radius: 25px;
   padding-left: 20px;
   display: flex;
