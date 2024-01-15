@@ -29,6 +29,7 @@ const getRandomWords = (source, count) => {
     filteredWords.push(selectedWord);
   }
 
+  console.log('filteredWords inside getRandomWords function', filteredWords)
   // Returns an array with 10 randomly selected words and their data
   return filteredWords;
 };
