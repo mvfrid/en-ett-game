@@ -11,8 +11,6 @@ export const preloadImages = (selectedWords) => {
   console.log('Images preloading...');
 };
 
-/*
-export const capitalizeFirstLetter = (string) => {
-  // ...function to capitalize first letter
+export const capitalizeFirstLetter = (word) => {
+  return word.charAt(0).toUpperCase() + word.slice(1);
 };
-*/

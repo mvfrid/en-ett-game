@@ -17,6 +17,7 @@ export const Gameboard = () => {
   const initialCardPosition = { container: 'start' };
   const [cardPosition, setCardPosition] = useState(initialCardPosition);
   const [boxesDisabled, setBoxesDisabled] = useState(false);
+  const [showMessageboard, setShowMessageboard] = useState(true);
 
   const dispatch = useDispatch();
   // const store = useSelector((state) => state.game);
@@ -52,19 +53,27 @@ export const Gameboard = () => {
     // Check if the dropped card's container matches the correct answer
     const isCorrectAnswer = targetContainer === correctAnswer;
 
-    // A delayed function runs after 2s, if targetcontainer != start.
+    setShowMessageboard(true);
+
+    setTimeout(() => {
+      // Show Messageboard after the desired delay
+      setShowMessageboard(false);
+    }, 1450); // 50 millisekunder fördröjning
+
+    // A delayed function runs after 1,5s, if targetcontainer != start.
     // Sends isCorrectAnswer to the game reducer and runs its "submitAnswer"
     // Here I will add some more feedback features (sound, color, etc) later
     setTimeout(() => {
       dispatch(game.actions.submitAnswer({ isCorrectAnswer }));
       setBoxesDisabled(false);
       setCardPosition(initialCardPosition);
+      setShowMessageboard(true);
 
       // Check if the game should end after this question
       if (currentQuestionIndex + 1 === setOfQuestions.length) {
         dispatch(game.actions.endTheGame());
       }
-    }, 2000);
+    }, 1500);
   };
 
   return (
@@ -76,9 +85,11 @@ export const Gameboard = () => {
         <Summary score={score} />
       ) : (
         <div className="gameboard">
-          <Messageboard
-            currentQuestionData={setOfQuestions[currentQuestionIndex]}
-            selectedBox={cardPosition.container} />
+          {showMessageboard && (
+            <Messageboard
+              currentQuestionData={setOfQuestions[currentQuestionIndex]}
+              selectedBox={cardPosition.container} />
+          )}
           <CardContainer onDrop={() => handleDrop('start')}>
             {cardPosition.container === 'start' && (
               <Card

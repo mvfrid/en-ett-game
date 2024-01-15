@@ -1,13 +1,10 @@
 /* eslint-disable prefer-destructuring */
 import React from 'react';
+import { capitalizeFirstLetter } from '../../helper/utils.js';
 
 export const Messageboard = ({ selectedBox, currentQuestionData }) => {
   // console.log("selectedBox:", selectedBox);
   // console.log("currentQuestionData in Messageboard:", currentQuestionData);
-
-  const capitalizeFirstLetter = (word) => {
-    return word.charAt(0).toUpperCase() + word.slice(1);
-  };
 
   // Det rätta svaret från datasetet
   const capitalizedAnswerEnEtt = capitalizeFirstLetter(
@@ -25,18 +22,16 @@ export const Messageboard = ({ selectedBox, currentQuestionData }) => {
   let messageToShow;
   let imageToShow;
 
-  if (selectedBox === 'start') {
-    messageToShow = messages[0];
+  if (selectedBox === currentQuestionData.answer) {
+    messageToShow = messages[1]; // Correct answer message
+    imageToShow = 'https://i.postimg.cc/66CN5KQb/icons8-correct-96.png';
+  } else if (selectedBox !== 'start') {
+    messageToShow = messages[2]; // Incorrect answer message
+    imageToShow = 'https://i.postimg.cc/bvx7TH20/icons8-incorrect-64.png';
+  } else {
+    messageToShow = messages[0]; // Message for 'start'
     // No image for "start"
     imageToShow = null;
-  } else if (selectedBox === currentQuestionData.answer) {
-    messageToShow = messages[1];
-    // Image URL for correct answer
-    imageToShow = 'https://i.postimg.cc/66CN5KQb/icons8-correct-96.png';
-  } else {
-    messageToShow = messages[2];
-    // Image URL for incorrect answer
-    imageToShow = 'https://i.postimg.cc/bvx7TH20/icons8-incorrect-64.png';
   }
   return (
     <div className="messageboard">
