@@ -1,6 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit';
 import worddata from '../assets/data/worddata.json';
 // import worddata from '../assets/data/testwords.json';
+// import { preloadData } from '../components/DataPreloader.js';
 
 const initialState = {
   setOfQuestions: [],
@@ -33,6 +34,42 @@ const getRandomWords = (source, count) => {
   return filteredWords;
 };
 
+// Action creator to preload game data
+export const preloadGameData = (data) => {
+  return {
+    type: 'game/preloadGameData',
+    payload: data
+  };
+};
+
+// Async thunk to start the game
+export const startTheGame = () => {
+  return async (dispatch) => {
+    // Reset the state to initial state
+    const newState = { ...initialState };
+
+    // Select random words
+    const selectedWords = getRandomWords(worddata, 10);
+    console.log('selectedWords in startTheGame reducer:', selectedWords);
+
+    // Preload and cache data here
+    const preloadedData = await preloadData(selectedWords);
+
+    // Set gameStart to true and update setOfQuestions with preloaded data
+    newState.gameStart = true;
+    newState.setOfQuestions = preloadedData;
+
+    // Dispatch the preloadGameData action to store the preloaded data
+    dispatch(preloadGameData(preloadedData));
+
+    // Dispatch the updated game state
+    dispatch({
+      type: 'game/startTheGame',
+      payload: newState
+    });
+  };
+};
+
 // A slice is a collection of Redux reducer logic and actions for a single feature in your app.
 export const game = createSlice({
   name: 'game',
@@ -59,13 +96,20 @@ export const game = createSlice({
 
     // Starts the game, by setting gameStart to true and running the getRandomWords function
     // Updating the state with these randomly selected words
-    startTheGame: () => {
+    startTheGame: async () => {
       // Reset the state to initial state
       const newState = { ...initialState };
 
-      // Set gameStart to true and update setOfQuestions
+      // Select random words
+      const selectedWords = getRandomWords(worddata, 10);
+      console.log('selectedWords in startTheGame reducer:', selectedWords)
+
+      // Preload and cache data here
+      // const preloadedData = await preloadData(selectedWords);
+
+      // Set gameStart to true and update setOfQuestions with preloaded data
       newState.gameStart = true;
-      newState.setOfQuestions = getRandomWords(worddata, 10);
+      newState.setOfQuestions = selectedWords;
 
       return newState;
     },

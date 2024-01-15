@@ -5,6 +5,8 @@ import { game } from './reducers/game';
 import { Header } from './components/Header.js';
 import { Gameboard } from './components/Game/Gameboard.js';
 import { Menu } from './components/Menu.js';
+// import { preloadData } from './components/DataPreloader.js';
+// import DataPreloader from './components/DataPreloader'; // Import the default export
 
 export const App = () => {
   const dispatch = useDispatch();
