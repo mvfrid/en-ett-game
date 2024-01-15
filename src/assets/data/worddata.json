@@ -372,7 +372,7 @@
         "id": 47,
         "word": "vattenpöl",
         "translation": "water puddle",
-        "picture": "/images/chatty_vattenpol2.png",
+        "picture": "/images/chatty_waterpuddle2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -1164,7 +1164,7 @@
         "id": 146,
         "word": "enhörning",
         "translation": "unicorn",
-        "picture": "/images/chatty_unicorn2.png",
+        "picture": "/images/chatty_unicorn_cute2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -2189,6 +2189,566 @@
         "word": "fisk",
         "translation": "fish",
         "picture": "/images/chatty_fish2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 274,
+        "word": "zombie",
+        "translation": "zombie",
+        "picture": "/images/chatty_zombie2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 275,
+        "word": "trollkarl",
+        "translation": "wizard",
+        "picture": "/images/chatty_wizard2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 276,
+        "word": "häxa",
+        "translation": "witch",
+        "picture": "/images/chatty_witch2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 277,
+        "word": "varulv",
+        "translation": "werewolf",
+        "picture": "/images/chatty_werewolf2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 278,
+        "word": "trollstav",
+        "translation": "wand",
+        "picture": "/images/chatty_wand2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 279,
+        "word": "vas",
+        "translation": "vase",
+        "picture": "/images/chatty_vase2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 280,
+        "word": "paraply",
+        "translation": "umbrella",
+        "picture": "/images/chatty_umbrella2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 281,
+        "word": "troll",
+        "translation": "troll",
+        "picture": "/images/chatty_troll2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 282,
+        "word": "tomte",
+        "translation": "santa",
+        "picture": "/images/chatty_tomte2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 283,
+        "word": "tomtenisse",
+        "translation": "christmas elf",
+        "picture": "/images/chatty_tomtenisse2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 284,
+        "word": "tråd",
+        "translation": "thread",
+        "picture": "/images/chatty_thread2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 285,
+        "word": "stol",
+        "translation": "chair",
+        "picture": "/images/chatty_stol2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 286,
+        "word": "soldat",
+        "translation": "soldier",
+        "picture": "/images/chatty_soldat2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 287,
+        "word": "såpbubbla",
+        "translation": "soap bubble",
+        "picture": "/images/chatty_soapbubble2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 288,
+        "word": "snöflinga",
+        "translation": "snowflake",
+        "picture": "/images/chatty_snowflake_new2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 289,
+        "word": "sengångare",
+        "translation": "sloth",
+        "picture": "/images/chatty_sloth2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 290,
+        "word": "skridsko",
+        "translation": "ice skate",
+        "picture": "/images/chatty_skridsko2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 291,
+        "word": "synål",
+        "translation": "sewing needle",
+        "picture": "/images/chatty_sewingneedle2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 292,
+        "word": "sandal",
+        "translation": "sandal",
+        "picture": "/images/chatty_sandal2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 293,
+        "word": "par sandaler",
+        "translation": "pair of sandals",
+        "picture": "/images/chatty_sandaler2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 294,
+        "word": "sallad",
+        "translation": "salad",
+        "picture": "/images/chatty_sallad2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 295,
+        "word": "salladsblad",
+        "translation": "lettuce leaf",
+        "picture": "/images/chatty_salladsblad2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 296,
+        "word": "saga",
+        "translation": "fairytale",
+        "picture": "/images/chatty_saga2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 297,
+        "word": "regndroppe",
+        "translation": "raindrop",
+        "picture": "/images/chatty_regndroppe2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 298,
+        "word": "regn",
+        "translation": "rain",
+        "picture": "/images/chatty_regn2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 299,
+        "word": "regnkappa",
+        "translation": "rain coat",
+        "picture": "/images/chatty_raincoat2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 300,
+        "word": "förbud",
+        "translation": "prohibition",
+        "picture": "/images/chatty_prohibition2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 301,
+        "word": "pizza",
+        "translation": "pizza",
+        "picture": "/images/chatty_pizza2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 302,
+        "word": "cocktail",
+        "translation": "cocktail",
+        "picture": "/images/chatty_pinacolada2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 303,
+        "word": "påfågel",
+        "translation": "peacock",
+        "picture": "/images/chatty_peacock2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 304,
+        "word": "par klackskor",
+        "translation": "pair of heels",
+        "picture": "/images/chatty_parklackskor2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 305,
+        "word": "paprika",
+        "translation": "bell pepper",
+        "picture": "/images/chatty_paprika2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 306,
+        "word": "mumie",
+        "translation": "mummy",
+        "picture": "/images/chatty_mumie2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 307,
+        "word": "mikrofon",
+        "translation": "microphone",
+        "picture": "/images/chatty_mic2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 308,
+        "word": "sjöjungfru",
+        "translation": "mermaid",
+        "picture": "/images/chatty_mermaid2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 309,
+        "word": "mascara",
+        "translation": "mascara",
+        "picture": "/images/chatty_mascara2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 310,
+        "word": "macka",
+        "translation": "sandwich",
+        "picture": "/images/chatty_macka2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 311,
+        "word": "löv",
+        "translation": "leaf",
+        "picture": "/images/chatty_leaf2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 312,
+        "word": "koala",
+        "translation": "koala",
+        "picture": "/images/chatty_koala2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 313,
+        "word": "klacksko",
+        "translation": "heeled shoe",
+        "picture": "/images/chatty_klacksko2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 314,
+        "word": "tangentbord",
+        "translation": "keyboard",
+        "picture": "/images/chatty_keyboard2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 315,
+        "word": "kaka",
+        "translation": "cookie",
+        "picture": "/images/chatty_kaka2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 316,
+        "word": "igelkott",
+        "translation": "hedgehog",
+        "picture": "/images/chatty_igelkott2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 317,
+        "word": "hundkoppel",
+        "translation": "dog leash",
+        "picture": "/images/chatty_hundkoppel_new_2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 318,
+        "word": "hatt",
+        "translation": "hat",
+        "picture": "/images/chatty_hat2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 319,
+        "word": "garnnystan",
+        "translation": "ball of yarn",
+        "picture": "/images/chatty_garnnystan2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 320,
+        "word": "flugsvamp",
+        "translation": "fly agaric",
+        "picture": "/images/chatty_flugsvamp2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 321,
+        "word": "fiskare",
+        "translation": "fisherman",
+        "picture": "/images/chatty_fiskare2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 322,
+        "word": "älva",
+        "translation": "fairy",
+        "picture": "/images/chatty_fairy2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 323,
+        "word": "kokosnöt",
+        "translation": "coconut",
+        "picture": "/images/chatty_coconut2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 324,
+        "word": "hamburgare",
+        "translation": "hamburger",
+        "picture": "/images/chatty_burger2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 325,
+        "word": "bagare",
+        "translation": "baker",
+        "picture": "/images/chatty_bagare2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 326,
+        "word": "aprikos",
+        "translation": "apricot",
+        "picture": "/images/chatty_aprikos2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 327,
+        "word": "tjuv",
+        "translation": "thief",
+        "picture": "/images/chatty_tjuv2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 328,
+        "word": "solur",
+        "translation": "sundial",
+        "picture": "/images/chatty_solur2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 329,
+        "word": "gummiband",
+        "translation": "rubber band",
+        "picture": "/images/chatty_rubberband2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 330,
+        "word": "fängelse",
+        "translation": "prison",
+        "picture": "/images/chatty_prison2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 331,
+        "word": "jordnöt",
+        "translation": "peanut",
+        "picture": "/images/chatty_peanut2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 332,
+        "word": "klubba",
+        "translation": "lollipop",
+        "picture": "/images/chatty_lollipop2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 333,
+        "word": "kompass",
+        "translation": "compass",
+        "picture": "/images/chatty_kompass2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 334,
+        "word": "garage",
+        "translation": "garage",
+        "picture": "/images/chatty_garage2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 335,
+        "word": "galler",
+        "translation": "bars",
+        "picture": "/images/chatty_galler2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 336,
+        "word": "brott",
+        "translation": "crime",
+        "picture": "/images/chatty_crime2.png",
+        "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 337,
+        "word": "ros",
+        "translation": "rose",
+        "picture": "/images/chatty_rose2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 338,
+        "word": "tulpan",
+        "translation": "tulip",
+        "picture": "/images/chatty_tulip2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 339,
+        "word": "solros",
+        "translation": "sunflower",
+        "picture": "/images/chatty_solros2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 340,
+        "word": "blåsippa",
+        "translation": "hepatica",
+        "picture": "/images/chatty_blasippa2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 341,
+        "word": "blåklocka",
+        "translation": "bluebell",
+        "picture": "/images/chatty_bluebell2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 342,
+        "word": "tomat",
+        "translation": "tomato",
+        "picture": "/images/chatty_tomat2.png",
+        "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 343,
+        "word": "gurka",
+        "translation": "cucumber",
+        "picture": "/images/chatty_cucumber2.png",
         "answer": "en",
         "level": "easy"
       }
