@@ -2428,7 +2428,7 @@
         "id": 303,
         "word": "påfågel",
         "translation": "peacock",
-        "picture": "/images/chatty_peacock2.png",
+        "picture": "/images/chatty_peacock_new2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -2750,6 +2750,14 @@
         "translation": "cucumber",
         "picture": "/images/chatty_cucumber2.png",
         "answer": "en",
+        "level": "easy"
+      },
+      {
+        "id": 344,
+        "word": "par örhängen",
+        "translation": "pair of earrings",
+        "picture": "/images/chatty_earrings2.png",
+        "answer": "ett",
         "level": "easy"
       }
     ]
