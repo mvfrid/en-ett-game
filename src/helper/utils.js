@@ -14,3 +14,11 @@ export const preloadImages = (selectedWords) => {
 export const capitalizeFirstLetter = (word) => {
   return word.charAt(0).toUpperCase() + word.slice(1);
 };
+
+export const preloadAudio = (selectedWords) => {
+  selectedWords.forEach((word) => {
+    console.log(word)
+    // Text to speech prep
+  });
+  console.log('Audio preloading...');
+};

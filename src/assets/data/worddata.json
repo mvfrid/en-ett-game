@@ -492,7 +492,7 @@
         "id": 62,
         "word": "björn",
         "translation": "bear",
-        "picture": "/images/chatty_bear2.png",
+        "picture": "/images/chatty_bear_new2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -500,7 +500,7 @@
         "id": 63,
         "word": "lejon",
         "translation": "lion",
-        "picture": "/images/chatty_lion2.png",
+        "picture": "/images/chatty_lion_new2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -508,7 +508,7 @@
         "id": 64,
         "word": "tiger",
         "translation": "tiger",
-        "picture": "/images/chatty_tiger2.png",
+        "picture": "/images/chatty_tiger_new2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -516,7 +516,7 @@
         "id": 65,
         "word": "bi",
         "translation": "bee",
-        "picture": "/images/chatty_bi2.png",
+        "picture": "/images/chatty_bi_2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -524,7 +524,7 @@
         "id": 66,
         "word": "sjölejon",
         "translation": "sea lion",
-        "picture": "/images/chatty_sealion2.png",
+        "picture": "/images/chatty_sealion_new2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -756,7 +756,7 @@
         "id": 95,
         "word": "rådjur",
         "translation": "deer",
-        "picture": "/images/chatty_deer2.png",
+        "picture": "/images/chatty_deer_another2.png",
         "answer": "ett",
         "level": "easy"
       },
@@ -772,7 +772,7 @@
         "id": 97,
         "word": "älg",
         "translation": "moose",
-        "picture": "/images/chatty_moose2.png",
+        "picture": "/images/chatty_moose_new2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -788,7 +788,7 @@
         "id": 99,
         "word": "panda",
         "translation": "panda",
-        "picture": "/images/chatty_panda.png",
+        "picture": "/images/chatty_panda2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -796,7 +796,7 @@
         "id": 100,
         "word": "isbjörn",
         "translation": "polar bear",
-        "picture": "/images/chatty_polarbear.png",
+        "picture": "/images/chatty_polarbear2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -812,7 +812,7 @@
         "id": 102,
         "word": "val",
         "translation": "whale",
-        "picture": "/images/chatty_val2.png",
+        "picture": "/images/chatty_whale2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -820,7 +820,7 @@
         "id": 103,
         "word": "varg",
         "translation": "wolf",
-        "picture": "/images/chatty_wolf.png",
+        "picture": "/images/chatty_wolf2.png",
         "answer": "en",
         "level": "easy"
       },
@@ -2758,6 +2758,14 @@
         "translation": "pair of earrings",
         "picture": "/images/chatty_earrings2.png",
         "answer": "ett",
+        "level": "easy"
+      },
+      {
+        "id": 345,
+        "word": "elefant",
+        "translation": "elephant",
+        "picture": "/images/chatty_new_elephant2.png",
+        "answer": "en",
         "level": "easy"
       }
     ]
