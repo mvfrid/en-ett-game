@@ -1074,8 +1074,8 @@
       },
       {
         "id": 135,
-        "word": "programmerare",
-        "translation": "programmer",
+        "word": "utvecklare",
+        "translation": "developer",
         "picture": "/images/chatty_hacker2.png",
         "answer": "en",
         "level": "easy"
@@ -2388,7 +2388,7 @@
         "id": 298,
         "word": "regn",
         "translation": "rain",
-        "picture": "/images/chatty_regn2.png",
+        "picture": "/images/chatty_rain2.png",
         "answer": "ett",
         "level": "easy"
       },
